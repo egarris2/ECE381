@@ -1,0 +1,18 @@
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\blink_led.cydsn\blink_led.cyprj|13d35e1f-e40c-4455-a107-a09a5a35fba9
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|eda983ba-82e1-4cb6-95f5-a320e653ed4d
+C:\Users\tgarrison\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|cbb6b64f-c4f3-42d2-9f1f-ed6e33c591cf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|17e72499-572e-4967-aa23-0971748d8661
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|c61dd472-ec5a-40de-9227-65802e49edec
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|55c80901-8620-4ecc-a98e-00ce034b59a6
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\digiDesignerCounter.cydsn\digiDesignerCounter.cyprj|69d08d11-c922-48ab-9f57-7cba4e7bf4d5
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Polling Lab.cydsn\Polling Lab.cyprj|0ceb16e6-4ce9-4172-80ec-09ce367ff32e
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\VolumeControl.cydsn\VolumeControl.cyprj|ee8dbe96-1d39-489d-9cef-a964278961ca
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Rotary Encoders.cydsn\Rotary Encoders.cyprj|1f98154a-ce45-4b98-9209-5789af814942
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Rotary Encoders Part2.cydsn\Rotary Encoders Part2.cyprj|d03e3488-6d98-400a-bbec-7c93680fc33c
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Sqaure Wave Generator.cydsn\Sqaure Wave Generator.cyprj|efe911ce-2839-4561-b3f4-e3551058a2c2
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Sqre Wave Part 2.cydsn\Sqre Wave Part 2.cyprj|c3a69856-bb02-4d4a-a004-843f089a76d5
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Garrison_Exam1.cydsn\Garrison_Exam1.cyprj|a62c5ede-2c3a-48fd-bd31-974379ddf41a
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Lab5_UART.cydsn\Lab5_UART.cyprj|11793ff5-6518-47c3-a4cb-69f906036b15
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\UART_Holden's.cydsn\UART_Holden's.cyprj|543ef9ef-31e6-40f0-bd78-d38d0e9bb271
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\Lab6_I2C.cydsn\Lab6_I2C.cyprj|3c0c2b4e-93ed-4890-9b63-3186b38b3522
+C:\Users\tgarrison\Documents\school\ECE381\blink_led\LCD_test.cydsn\LCD_test.cyprj|a6a990e4-c8cb-4974-9972-17de357bd634

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="ECE381_LABS" persistent="ECE381_LABS.cywrk" platform="NOT_USED">
+<current_project name=".\Lab6_I2C.cydsn\Lab6_I2C.cyprj" />
+<wrkspc_folders />
+<files />
+<projects>
+<v>.\blink_led.cydsn\blink_led.cyprj</v>
+<v>.\digiDesignerCounter.cydsn\digiDesignerCounter.cyprj</v>
+<v>.\Polling Lab.cydsn\Polling Lab.cyprj</v>
+<v>.\VolumeControl.cydsn\VolumeControl.cyprj</v>
+<v>.\Rotary Encoders.cydsn\Rotary Encoders.cyprj</v>
+<v>.\Rotary Encoders Part2.cydsn\Rotary Encoders Part2.cyprj</v>
+<v>.\Sqaure Wave Generator.cydsn\Sqaure Wave Generator.cyprj</v>
+<v>.\Sqre Wave Part 2.cydsn\Sqre Wave Part 2.cyprj</v>
+<v>.\Garrison_Exam1.cydsn\Garrison_Exam1.cyprj</v>
+<v>.\Lab5_UART.cydsn\Lab5_UART.cyprj</v>
+<v>.\UART_Holden's.cydsn\UART_Holden's.cyprj</v>
+<v>.\Lab6_I2C.cydsn\Lab6_I2C.cyprj</v>
+<v>.\LCD_test.cydsn\LCD_test.cyprj</v>
+</projects>
+<workspace_id v="3e6af5bf-1b90-4d11-9cda-c1f2a0c6b80b" />
+<WriteAppVersionLastSavedWith v="4.1.0.3210" />
+<WriteAppMarketingVersionLastSavedWith v="4.1 Update 1" />
+<CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize+CyPrjDependencyList" version="4">
+<wrkspc_dependencies />
+</CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316>
+<CyGuid_63b68103-67f5-4406-8da6-5c8625765b82 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize+CyIgnoredSystemDepsList" version="1">
+<wrkspc_dependencies />
+</CyGuid_63b68103-67f5-4406-8da6-5c8625765b82>
+</CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd>
+</CyXmlSerializer>

@@ -1,0 +1,1591 @@
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 1048
+  28              	cy_meta_configecc:
+  29 0000 01       		.byte	1
+  30 0001 64       		.byte	100
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 02       		.byte	2
+  34 0005 65       		.byte	101
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 5D       		.byte	93
+  38 0009 08       		.byte	8
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 35       		.byte	53
+  42 000d 09       		.byte	9
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 04       		.byte	4
+  46 0011 15       		.byte	21
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 01       		.byte	1
+  50 0015 17       		.byte	23
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 3A       		.byte	58
+  54 0019 18       		.byte	24
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 34       		.byte	52
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 2
+
+
+  58 001d 19       		.byte	25
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 4F       		.byte	79
+  62 0021 1A       		.byte	26
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 3D       		.byte	61
+  66 0025 1B       		.byte	27
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 02       		.byte	2
+  70 0029 40       		.byte	64
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 01       		.byte	1
+  74 002d 41       		.byte	65
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 03       		.byte	3
+  78 0031 42       		.byte	66
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 02       		.byte	2
+  82 0035 43       		.byte	67
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 04       		.byte	4
+  86 0039 48       		.byte	72
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 13       		.byte	19
+  90 003d 49       		.byte	73
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 08       		.byte	8
+  94 0041 4C       		.byte	76
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 0C       		.byte	12
+  98 0045 4D       		.byte	77
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 08       		.byte	8
+ 102 0049 50       		.byte	80
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 02       		.byte	2
+ 106 004d 51       		.byte	81
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 88       		.byte	-120
+ 110 0051 0F       		.byte	15
+ 111 0052 88       		.byte	-120
+ 112 0053 72       		.byte	114
+ 113 0054 8B       		.byte	-117
+ 114 0055 38       		.byte	56
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 3
+
+
+ 115 0056 02       		.byte	2
+ 116 0057 08       		.byte	8
+ 117 0058 0A       		.byte	10
+ 118 0059 15       		.byte	21
+ 119 005a 0C       		.byte	12
+ 120 005b 13       		.byte	19
+ 121 005c 0E       		.byte	14
+ 122 005d 04       		.byte	4
+ 123 005e 10       		.byte	16
+ 124 005f 03       		.byte	3
+ 125 0060 12       		.byte	18
+ 126 0061 14       		.byte	20
+ 127 0062 13       		.byte	19
+ 128 0063 03       		.byte	3
+ 129 0064 14       		.byte	20
+ 130 0065 13       		.byte	19
+ 131 0066 15       		.byte	21
+ 132 0067 06       		.byte	6
+ 133 0068 16       		.byte	22
+ 134 0069 0C       		.byte	12
+ 135 006a 17       		.byte	23
+ 136 006b 01       		.byte	1
+ 137 006c 1F       		.byte	31
+ 138 006d 06       		.byte	6
+ 139 006e 23       		.byte	35
+ 140 006f 02       		.byte	2
+ 141 0070 24       		.byte	36
+ 142 0071 0A       		.byte	10
+ 143 0072 26       		.byte	38
+ 144 0073 14       		.byte	20
+ 145 0074 27       		.byte	39
+ 146 0075 01       		.byte	1
+ 147 0076 28       		.byte	40
+ 148 0077 20       		.byte	32
+ 149 0078 2B       		.byte	43
+ 150 0079 05       		.byte	5
+ 151 007a 30       		.byte	48
+ 152 007b 10       		.byte	16
+ 153 007c 32       		.byte	50
+ 154 007d 0F       		.byte	15
+ 155 007e 34       		.byte	52
+ 156 007f 20       		.byte	32
+ 157 0080 37       		.byte	55
+ 158 0081 07       		.byte	7
+ 159 0082 3A       		.byte	58
+ 160 0083 08       		.byte	8
+ 161 0084 3B       		.byte	59
+ 162 0085 80       		.byte	-128
+ 163 0086 3E       		.byte	62
+ 164 0087 11       		.byte	17
+ 165 0088 40       		.byte	64
+ 166 0089 32       		.byte	50
+ 167 008a 41       		.byte	65
+ 168 008b 04       		.byte	4
+ 169 008c 46       		.byte	70
+ 170 008d BC       		.byte	-68
+ 171 008e 47       		.byte	71
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 4
+
+
+ 172 008f 0E       		.byte	14
+ 173 0090 48       		.byte	72
+ 174 0091 1C       		.byte	28
+ 175 0092 49       		.byte	73
+ 176 0093 FF       		.byte	-1
+ 177 0094 4A       		.byte	74
+ 178 0095 FF       		.byte	-1
+ 179 0096 4B       		.byte	75
+ 180 0097 FF       		.byte	-1
+ 181 0098 4E       		.byte	78
+ 182 0099 F0       		.byte	-16
+ 183 009a 4F       		.byte	79
+ 184 009b 44       		.byte	68
+ 185 009c 50       		.byte	80
+ 186 009d 0C       		.byte	12
+ 187 009e 54       		.byte	84
+ 188 009f 01       		.byte	1
+ 189 00a0 58       		.byte	88
+ 190 00a1 04       		.byte	4
+ 191 00a2 59       		.byte	89
+ 192 00a3 04       		.byte	4
+ 193 00a4 5A       		.byte	90
+ 194 00a5 04       		.byte	4
+ 195 00a6 5B       		.byte	91
+ 196 00a7 04       		.byte	4
+ 197 00a8 5F       		.byte	95
+ 198 00a9 01       		.byte	1
+ 199 00aa 66       		.byte	102
+ 200 00ab C0       		.byte	-64
+ 201 00ac 6A       		.byte	106
+ 202 00ad 40       		.byte	64
+ 203 00ae 6B       		.byte	107
+ 204 00af 02       		.byte	2
+ 205 00b0 84       		.byte	-124
+ 206 00b1 14       		.byte	20
+ 207 00b2 85       		.byte	-123
+ 208 00b3 0C       		.byte	12
+ 209 00b4 87       		.byte	-121
+ 210 00b5 13       		.byte	19
+ 211 00b6 8A       		.byte	-118
+ 212 00b7 03       		.byte	3
+ 213 00b8 8C       		.byte	-116
+ 214 00b9 6C       		.byte	108
+ 215 00ba 8E       		.byte	-114
+ 216 00bb 11       		.byte	17
+ 217 00bc 8F       		.byte	-113
+ 218 00bd 0C       		.byte	12
+ 219 00be 90       		.byte	-112
+ 220 00bf 09       		.byte	9
+ 221 00c0 92       		.byte	-110
+ 222 00c1 10       		.byte	16
+ 223 00c2 94       		.byte	-108
+ 224 00c3 70       		.byte	112
+ 225 00c4 95       		.byte	-107
+ 226 00c5 11       		.byte	17
+ 227 00c6 96       		.byte	-106
+ 228 00c7 0C       		.byte	12
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 5
+
+
+ 229 00c8 97       		.byte	-105
+ 230 00c9 06       		.byte	6
+ 231 00ca 99       		.byte	-103
+ 232 00cb 20       		.byte	32
+ 233 00cc 9B       		.byte	-101
+ 234 00cd 03       		.byte	3
+ 235 00ce 9D       		.byte	-99
+ 236 00cf 11       		.byte	17
+ 237 00d0 9F       		.byte	-97
+ 238 00d1 0E       		.byte	14
+ 239 00d2 A0       		.byte	-96
+ 240 00d3 10       		.byte	16
+ 241 00d4 A6       		.byte	-90
+ 242 00d5 20       		.byte	32
+ 243 00d6 A8       		.byte	-88
+ 244 00d7 5C       		.byte	92
+ 245 00d8 AA       		.byte	-86
+ 246 00d9 02       		.byte	2
+ 247 00da AF       		.byte	-81
+ 248 00db 08       		.byte	8
+ 249 00dc B1       		.byte	-79
+ 250 00dd 30       		.byte	48
+ 251 00de B2       		.byte	-78
+ 252 00df 1F       		.byte	31
+ 253 00e0 B3       		.byte	-77
+ 254 00e1 0F       		.byte	15
+ 255 00e2 B6       		.byte	-74
+ 256 00e3 60       		.byte	96
+ 257 00e4 B8       		.byte	-72
+ 258 00e5 80       		.byte	-128
+ 259 00e6 B9       		.byte	-71
+ 260 00e7 02       		.byte	2
+ 261 00e8 BB       		.byte	-69
+ 262 00e9 08       		.byte	8
+ 263 00ea BE       		.byte	-66
+ 264 00eb 40       		.byte	64
+ 265 00ec C0       		.byte	-64
+ 266 00ed 01       		.byte	1
+ 267 00ee C6       		.byte	-58
+ 268 00ef 04       		.byte	4
+ 269 00f0 C9       		.byte	-55
+ 270 00f1 FF       		.byte	-1
+ 271 00f2 CA       		.byte	-54
+ 272 00f3 07       		.byte	7
+ 273 00f4 CB       		.byte	-53
+ 274 00f5 FF       		.byte	-1
+ 275 00f6 CC       		.byte	-52
+ 276 00f7 40       		.byte	64
+ 277 00f8 CD       		.byte	-51
+ 278 00f9 20       		.byte	32
+ 279 00fa CE       		.byte	-50
+ 280 00fb F0       		.byte	-16
+ 281 00fc CF       		.byte	-49
+ 282 00fd 05       		.byte	5
+ 283 00fe D0       		.byte	-48
+ 284 00ff 08       		.byte	8
+ 285 0100 D8       		.byte	-40
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 6
+
+
+ 286 0101 04       		.byte	4
+ 287 0102 D9       		.byte	-39
+ 288 0103 04       		.byte	4
+ 289 0104 DA       		.byte	-38
+ 290 0105 04       		.byte	4
+ 291 0106 DF       		.byte	-33
+ 292 0107 01       		.byte	1
+ 293 0108 E0       		.byte	-32
+ 294 0109 40       		.byte	64
+ 295 010a E1       		.byte	-31
+ 296 010b A8       		.byte	-88
+ 297 010c E2       		.byte	-30
+ 298 010d 40       		.byte	64
+ 299 010e E3       		.byte	-29
+ 300 010f 20       		.byte	32
+ 301 0110 00       		.byte	0
+ 302 0111 10       		.byte	16
+ 303 0112 02       		.byte	2
+ 304 0113 10       		.byte	16
+ 305 0114 03       		.byte	3
+ 306 0115 01       		.byte	1
+ 307 0116 06       		.byte	6
+ 308 0117 08       		.byte	8
+ 309 0118 07       		.byte	7
+ 310 0119 81       		.byte	-127
+ 311 011a 09       		.byte	9
+ 312 011b 08       		.byte	8
+ 313 011c 0B       		.byte	11
+ 314 011d 40       		.byte	64
+ 315 011e 0D       		.byte	13
+ 316 011f 08       		.byte	8
+ 317 0120 0F       		.byte	15
+ 318 0121 80       		.byte	-128
+ 319 0122 10       		.byte	16
+ 320 0123 A0       		.byte	-96
+ 321 0124 12       		.byte	18
+ 322 0125 08       		.byte	8
+ 323 0126 15       		.byte	21
+ 324 0127 08       		.byte	8
+ 325 0128 16       		.byte	22
+ 326 0129 04       		.byte	4
+ 327 012a 18       		.byte	24
+ 328 012b 11       		.byte	17
+ 329 012c 1D       		.byte	29
+ 330 012d 08       		.byte	8
+ 331 012e 1E       		.byte	30
+ 332 012f 48       		.byte	72
+ 333 0130 1F       		.byte	31
+ 334 0131 04       		.byte	4
+ 335 0132 21       		.byte	33
+ 336 0133 04       		.byte	4
+ 337 0134 22       		.byte	34
+ 338 0135 08       		.byte	8
+ 339 0136 23       		.byte	35
+ 340 0137 C0       		.byte	-64
+ 341 0138 26       		.byte	38
+ 342 0139 80       		.byte	-128
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 7
+
+
+ 343 013a 27       		.byte	39
+ 344 013b 01       		.byte	1
+ 345 013c 2A       		.byte	42
+ 346 013d 40       		.byte	64
+ 347 013e 2C       		.byte	44
+ 348 013f A0       		.byte	-96
+ 349 0140 2E       		.byte	46
+ 350 0141 08       		.byte	8
+ 351 0142 2F       		.byte	47
+ 352 0143 04       		.byte	4
+ 353 0144 30       		.byte	48
+ 354 0145 20       		.byte	32
+ 355 0146 31       		.byte	49
+ 356 0147 08       		.byte	8
+ 357 0148 32       		.byte	50
+ 358 0149 80       		.byte	-128
+ 359 014a 36       		.byte	54
+ 360 014b 08       		.byte	8
+ 361 014c 37       		.byte	55
+ 362 014d 81       		.byte	-127
+ 363 014e 39       		.byte	57
+ 364 014f 08       		.byte	8
+ 365 0150 3B       		.byte	59
+ 366 0151 40       		.byte	64
+ 367 0152 40       		.byte	64
+ 368 0153 01       		.byte	1
+ 369 0154 45       		.byte	69
+ 370 0155 08       		.byte	8
+ 371 0156 46       		.byte	70
+ 372 0157 08       		.byte	8
+ 373 0158 47       		.byte	71
+ 374 0159 01       		.byte	1
+ 375 015a 48       		.byte	72
+ 376 015b 20       		.byte	32
+ 377 015c 50       		.byte	80
+ 378 015d 80       		.byte	-128
+ 379 015e 52       		.byte	82
+ 380 015f 40       		.byte	64
+ 381 0160 56       		.byte	86
+ 382 0161 14       		.byte	20
+ 383 0162 57       		.byte	87
+ 384 0163 C0       		.byte	-64
+ 385 0164 5C       		.byte	92
+ 386 0165 20       		.byte	32
+ 387 0166 5E       		.byte	94
+ 388 0167 48       		.byte	72
+ 389 0168 5F       		.byte	95
+ 390 0169 01       		.byte	1
+ 391 016a C0       		.byte	-64
+ 392 016b D7       		.byte	-41
+ 393 016c C2       		.byte	-62
+ 394 016d 3C       		.byte	60
+ 395 016e C4       		.byte	-60
+ 396 016f 6E       		.byte	110
+ 397 0170 CA       		.byte	-54
+ 398 0171 E8       		.byte	-24
+ 399 0172 CC       		.byte	-52
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 8
+
+
+ 400 0173 DE       		.byte	-34
+ 401 0174 CE       		.byte	-50
+ 402 0175 0A       		.byte	10
+ 403 0176 D0       		.byte	-48
+ 404 0177 E8       		.byte	-24
+ 405 0178 D6       		.byte	-42
+ 406 0179 F0       		.byte	-16
+ 407 017a E0       		.byte	-32
+ 408 017b 08       		.byte	8
+ 409 017c E6       		.byte	-26
+ 410 017d 02       		.byte	2
+ 411 017e E8       		.byte	-24
+ 412 017f 20       		.byte	32
+ 413 0180 EA       		.byte	-22
+ 414 0181 05       		.byte	5
+ 415 0182 E6       		.byte	-26
+ 416 0183 02       		.byte	2
+ 417 0184 00       		.byte	0
+ 418 0185 01       		.byte	1
+ 419 0186 03       		.byte	3
+ 420 0187 01       		.byte	1
+ 421 0188 04       		.byte	4
+ 422 0189 01       		.byte	1
+ 423 018a 05       		.byte	5
+ 424 018b 02       		.byte	2
+ 425 018c 08       		.byte	8
+ 426 018d 01       		.byte	1
+ 427 018e 09       		.byte	9
+ 428 018f 02       		.byte	2
+ 429 0190 11       		.byte	17
+ 430 0191 02       		.byte	2
+ 431 0192 14       		.byte	20
+ 432 0193 01       		.byte	1
+ 433 0194 1F       		.byte	31
+ 434 0195 01       		.byte	1
+ 435 0196 25       		.byte	37
+ 436 0197 01       		.byte	1
+ 437 0198 29       		.byte	41
+ 438 0199 01       		.byte	1
+ 439 019a 30       		.byte	48
+ 440 019b 01       		.byte	1
+ 441 019c 33       		.byte	51
+ 442 019d 02       		.byte	2
+ 443 019e 35       		.byte	53
+ 444 019f 01       		.byte	1
+ 445 01a0 39       		.byte	57
+ 446 01a1 20       		.byte	32
+ 447 01a2 3E       		.byte	62
+ 448 01a3 01       		.byte	1
+ 449 01a4 56       		.byte	86
+ 450 01a5 02       		.byte	2
+ 451 01a6 57       		.byte	87
+ 452 01a7 10       		.byte	16
+ 453 01a8 58       		.byte	88
+ 454 01a9 04       		.byte	4
+ 455 01aa 59       		.byte	89
+ 456 01ab 04       		.byte	4
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 9
+
+
+ 457 01ac 5B       		.byte	91
+ 458 01ad 04       		.byte	4
+ 459 01ae 5F       		.byte	95
+ 460 01af 01       		.byte	1
+ 461 01b0 80       		.byte	-128
+ 462 01b1 06       		.byte	6
+ 463 01b2 82       		.byte	-126
+ 464 01b3 01       		.byte	1
+ 465 01b4 83       		.byte	-125
+ 466 01b5 01       		.byte	1
+ 467 01b6 84       		.byte	-124
+ 468 01b7 01       		.byte	1
+ 469 01b8 85       		.byte	-123
+ 470 01b9 08       		.byte	8
+ 471 01ba 86       		.byte	-122
+ 472 01bb 06       		.byte	6
+ 473 01bc 88       		.byte	-120
+ 474 01bd 08       		.byte	8
+ 475 01be 89       		.byte	-119
+ 476 01bf 18       		.byte	24
+ 477 01c0 8D       		.byte	-115
+ 478 01c1 19       		.byte	25
+ 479 01c2 8F       		.byte	-113
+ 480 01c3 04       		.byte	4
+ 481 01c4 90       		.byte	-112
+ 482 01c5 06       		.byte	6
+ 483 01c6 92       		.byte	-110
+ 484 01c7 01       		.byte	1
+ 485 01c8 94       		.byte	-108
+ 486 01c9 07       		.byte	7
+ 487 01ca 95       		.byte	-107
+ 488 01cb 19       		.byte	25
+ 489 01cc 97       		.byte	-105
+ 490 01cd 02       		.byte	2
+ 491 01ce 9A       		.byte	-102
+ 492 01cf 01       		.byte	1
+ 493 01d0 9B       		.byte	-101
+ 494 01d1 06       		.byte	6
+ 495 01d2 9D       		.byte	-99
+ 496 01d3 10       		.byte	16
+ 497 01d4 A0       		.byte	-96
+ 498 01d5 04       		.byte	4
+ 499 01d6 A1       		.byte	-95
+ 500 01d7 01       		.byte	1
+ 501 01d8 A3       		.byte	-93
+ 502 01d9 20       		.byte	32
+ 503 01da A4       		.byte	-92
+ 504 01db 02       		.byte	2
+ 505 01dc A5       		.byte	-91
+ 506 01dd 07       		.byte	7
+ 507 01de A7       		.byte	-89
+ 508 01df 18       		.byte	24
+ 509 01e0 A8       		.byte	-88
+ 510 01e1 06       		.byte	6
+ 511 01e2 A9       		.byte	-87
+ 512 01e3 1F       		.byte	31
+ 513 01e4 B1       		.byte	-79
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 10
+
+
+ 514 01e5 20       		.byte	32
+ 515 01e6 B2       		.byte	-78
+ 516 01e7 08       		.byte	8
+ 517 01e8 B4       		.byte	-76
+ 518 01e9 07       		.byte	7
+ 519 01ea B7       		.byte	-73
+ 520 01eb 1F       		.byte	31
+ 521 01ec BA       		.byte	-70
+ 522 01ed 20       		.byte	32
+ 523 01ee BB       		.byte	-69
+ 524 01ef 88       		.byte	-120
+ 525 01f0 BE       		.byte	-66
+ 526 01f1 04       		.byte	4
+ 527 01f2 D8       		.byte	-40
+ 528 01f3 04       		.byte	4
+ 529 01f4 D9       		.byte	-39
+ 530 01f5 04       		.byte	4
+ 531 01f6 DF       		.byte	-33
+ 532 01f7 01       		.byte	1
+ 533 01f8 00       		.byte	0
+ 534 01f9 11       		.byte	17
+ 535 01fa 01       		.byte	1
+ 536 01fb 08       		.byte	8
+ 537 01fc 02       		.byte	2
+ 538 01fd 40       		.byte	64
+ 539 01fe 04       		.byte	4
+ 540 01ff 09       		.byte	9
+ 541 0200 05       		.byte	5
+ 542 0201 28       		.byte	40
+ 543 0202 08       		.byte	8
+ 544 0203 10       		.byte	16
+ 545 0204 09       		.byte	9
+ 546 0205 01       		.byte	1
+ 547 0206 0B       		.byte	11
+ 548 0207 10       		.byte	16
+ 549 0208 0C       		.byte	12
+ 550 0209 04       		.byte	4
+ 551 020a 0F       		.byte	15
+ 552 020b 10       		.byte	16
+ 553 020c 10       		.byte	16
+ 554 020d A8       		.byte	-88
+ 555 020e 19       		.byte	25
+ 556 020f 20       		.byte	32
+ 557 0210 1A       		.byte	26
+ 558 0211 08       		.byte	8
+ 559 0212 1B       		.byte	27
+ 560 0213 04       		.byte	4
+ 561 0214 1E       		.byte	30
+ 562 0215 80       		.byte	-128
+ 563 0216 20       		.byte	32
+ 564 0217 01       		.byte	1
+ 565 0218 21       		.byte	33
+ 566 0219 01       		.byte	1
+ 567 021a 22       		.byte	34
+ 568 021b 80       		.byte	-128
+ 569 021c 23       		.byte	35
+ 570 021d 11       		.byte	17
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 11
+
+
+ 571 021e 25       		.byte	37
+ 572 021f 28       		.byte	40
+ 573 0220 28       		.byte	40
+ 574 0221 04       		.byte	4
+ 575 0222 29       		.byte	41
+ 576 0223 08       		.byte	8
+ 577 0224 2A       		.byte	42
+ 578 0225 02       		.byte	2
+ 579 0226 2C       		.byte	44
+ 580 0227 04       		.byte	4
+ 581 0228 2D       		.byte	45
+ 582 0229 08       		.byte	8
+ 583 022a 30       		.byte	48
+ 584 022b 90       		.byte	-112
+ 585 022c 32       		.byte	50
+ 586 022d 04       		.byte	4
+ 587 022e 36       		.byte	54
+ 588 022f 80       		.byte	-128
+ 589 0230 37       		.byte	55
+ 590 0231 01       		.byte	1
+ 591 0232 39       		.byte	57
+ 592 0233 02       		.byte	2
+ 593 0234 3A       		.byte	58
+ 594 0235 54       		.byte	84
+ 595 0236 3D       		.byte	61
+ 596 0237 02       		.byte	2
+ 597 0238 3E       		.byte	62
+ 598 0239 14       		.byte	20
+ 599 023a 5E       		.byte	94
+ 600 023b 80       		.byte	-128
+ 601 023c 6E       		.byte	110
+ 602 023d 14       		.byte	20
+ 603 023e 6F       		.byte	111
+ 604 023f 01       		.byte	1
+ 605 0240 74       		.byte	116
+ 606 0241 A8       		.byte	-88
+ 607 0242 76       		.byte	118
+ 608 0243 14       		.byte	20
+ 609 0244 83       		.byte	-125
+ 610 0245 04       		.byte	4
+ 611 0246 90       		.byte	-112
+ 612 0247 10       		.byte	16
+ 613 0248 A8       		.byte	-88
+ 614 0249 20       		.byte	32
+ 615 024a AA       		.byte	-86
+ 616 024b 04       		.byte	4
+ 617 024c AB       		.byte	-85
+ 618 024d 81       		.byte	-127
+ 619 024e C0       		.byte	-64
+ 620 024f 7E       		.byte	126
+ 621 0250 C2       		.byte	-62
+ 622 0251 2E       		.byte	46
+ 623 0252 C4       		.byte	-60
+ 624 0253 0E       		.byte	14
+ 625 0254 CA       		.byte	-54
+ 626 0255 67       		.byte	103
+ 627 0256 CC       		.byte	-52
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 12
+
+
+ 628 0257 9E       		.byte	-98
+ 629 0258 CE       		.byte	-50
+ 630 0259 EF       		.byte	-17
+ 631 025a D6       		.byte	-42
+ 632 025b 10       		.byte	16
+ 633 025c E4       		.byte	-28
+ 634 025d 04       		.byte	4
+ 635 025e E6       		.byte	-26
+ 636 025f 02       		.byte	2
+ 637 0260 00       		.byte	0
+ 638 0261 11       		.byte	17
+ 639 0262 04       		.byte	4
+ 640 0263 33       		.byte	51
+ 641 0264 06       		.byte	6
+ 642 0265 0C       		.byte	12
+ 643 0266 08       		.byte	8
+ 644 0267 22       		.byte	34
+ 645 0268 0C       		.byte	12
+ 646 0269 33       		.byte	51
+ 647 026a 10       		.byte	16
+ 648 026b 0F       		.byte	15
+ 649 026c 12       		.byte	18
+ 650 026d 30       		.byte	48
+ 651 026e 14       		.byte	20
+ 652 026f 3F       		.byte	63
+ 653 0270 1A       		.byte	26
+ 654 0271 33       		.byte	51
+ 655 0272 1C       		.byte	28
+ 656 0273 0C       		.byte	12
+ 657 0274 1E       		.byte	30
+ 658 0275 33       		.byte	51
+ 659 0276 20       		.byte	32
+ 660 0277 08       		.byte	8
+ 661 0278 24       		.byte	36
+ 662 0279 04       		.byte	4
+ 663 027a 28       		.byte	40
+ 664 027b 0C       		.byte	12
+ 665 027c 34       		.byte	52
+ 666 027d 0F       		.byte	15
+ 667 027e 36       		.byte	54
+ 668 027f 30       		.byte	48
+ 669 0280 3A       		.byte	58
+ 670 0281 20       		.byte	32
+ 671 0282 58       		.byte	88
+ 672 0283 04       		.byte	4
+ 673 0284 5F       		.byte	95
+ 674 0285 01       		.byte	1
+ 675 0286 80       		.byte	-128
+ 676 0287 07       		.byte	7
+ 677 0288 81       		.byte	-127
+ 678 0289 11       		.byte	17
+ 679 028a 83       		.byte	-125
+ 680 028b 26       		.byte	38
+ 681 028c 84       		.byte	-124
+ 682 028d 06       		.byte	6
+ 683 028e 85       		.byte	-123
+ 684 028f 73       		.byte	115
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 13
+
+
+ 685 0290 88       		.byte	-120
+ 686 0291 02       		.byte	2
+ 687 0292 89       		.byte	-119
+ 688 0293 73       		.byte	115
+ 689 0294 8E       		.byte	-114
+ 690 0295 10       		.byte	16
+ 691 0296 91       		.byte	-111
+ 692 0297 20       		.byte	32
+ 693 0298 92       		.byte	-110
+ 694 0299 08       		.byte	8
+ 695 029a 93       		.byte	-109
+ 696 029b 58       		.byte	88
+ 697 029c 94       		.byte	-108
+ 698 029d 07       		.byte	7
+ 699 029e 99       		.byte	-103
+ 700 029f 42       		.byte	66
+ 701 02a0 9A       		.byte	-102
+ 702 02a1 08       		.byte	8
+ 703 02a2 9B       		.byte	-101
+ 704 02a3 25       		.byte	37
+ 705 02a4 9C       		.byte	-100
+ 706 02a5 04       		.byte	4
+ 707 02a6 A0       		.byte	-96
+ 708 02a7 01       		.byte	1
+ 709 02a8 A2       		.byte	-94
+ 710 02a9 06       		.byte	6
+ 711 02aa A6       		.byte	-90
+ 712 02ab 01       		.byte	1
+ 713 02ac AA       		.byte	-86
+ 714 02ad 10       		.byte	16
+ 715 02ae AC       		.byte	-84
+ 716 02af 06       		.byte	6
+ 717 02b0 AE       		.byte	-82
+ 718 02b1 01       		.byte	1
+ 719 02b2 B1       		.byte	-79
+ 720 02b3 0C       		.byte	12
+ 721 02b4 B2       		.byte	-78
+ 722 02b5 08       		.byte	8
+ 723 02b6 B3       		.byte	-77
+ 724 02b7 03       		.byte	3
+ 725 02b8 B4       		.byte	-76
+ 726 02b9 10       		.byte	16
+ 727 02ba B6       		.byte	-74
+ 728 02bb 07       		.byte	7
+ 729 02bc B7       		.byte	-73
+ 730 02bd 70       		.byte	112
+ 731 02be BE       		.byte	-66
+ 732 02bf 14       		.byte	20
+ 733 02c0 BF       		.byte	-65
+ 734 02c1 01       		.byte	1
+ 735 02c2 C0       		.byte	-64
+ 736 02c3 63       		.byte	99
+ 737 02c4 C1       		.byte	-63
+ 738 02c5 02       		.byte	2
+ 739 02c6 C2       		.byte	-62
+ 740 02c7 05       		.byte	5
+ 741 02c8 C4       		.byte	-60
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 14
+
+
+ 742 02c9 01       		.byte	1
+ 743 02ca C6       		.byte	-58
+ 744 02cb 0E       		.byte	14
+ 745 02cc C7       		.byte	-57
+ 746 02cd 0C       		.byte	12
+ 747 02ce C8       		.byte	-56
+ 748 02cf 14       		.byte	20
+ 749 02d0 C9       		.byte	-55
+ 750 02d1 FF       		.byte	-1
+ 751 02d2 CA       		.byte	-54
+ 752 02d3 FF       		.byte	-1
+ 753 02d4 CB       		.byte	-53
+ 754 02d5 FF       		.byte	-1
+ 755 02d6 CC       		.byte	-52
+ 756 02d7 62       		.byte	98
+ 757 02d8 CD       		.byte	-51
+ 758 02d9 A0       		.byte	-96
+ 759 02da CE       		.byte	-50
+ 760 02db F0       		.byte	-16
+ 761 02dc CF       		.byte	-49
+ 762 02dd 41       		.byte	65
+ 763 02de D0       		.byte	-48
+ 764 02df 0C       		.byte	12
+ 765 02e0 D4       		.byte	-44
+ 766 02e1 18       		.byte	24
+ 767 02e2 D6       		.byte	-42
+ 768 02e3 04       		.byte	4
+ 769 02e4 D8       		.byte	-40
+ 770 02e5 04       		.byte	4
+ 771 02e6 D9       		.byte	-39
+ 772 02e7 04       		.byte	4
+ 773 02e8 DA       		.byte	-38
+ 774 02e9 04       		.byte	4
+ 775 02ea DB       		.byte	-37
+ 776 02eb 04       		.byte	4
+ 777 02ec DF       		.byte	-33
+ 778 02ed 01       		.byte	1
+ 779 02ee E6       		.byte	-26
+ 780 02ef 40       		.byte	64
+ 781 02f0 E7       		.byte	-25
+ 782 02f1 02       		.byte	2
+ 783 02f2 E9       		.byte	-23
+ 784 02f3 10       		.byte	16
+ 785 02f4 EA       		.byte	-22
+ 786 02f5 30       		.byte	48
+ 787 02f6 EB       		.byte	-21
+ 788 02f7 10       		.byte	16
+ 789 02f8 ED       		.byte	-19
+ 790 02f9 10       		.byte	16
+ 791 02fa EE       		.byte	-18
+ 792 02fb 10       		.byte	16
+ 793 02fc EF       		.byte	-17
+ 794 02fd 12       		.byte	18
+ 795 02fe 00       		.byte	0
+ 796 02ff 06       		.byte	6
+ 797 0300 02       		.byte	2
+ 798 0301 08       		.byte	8
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 15
+
+
+ 799 0302 03       		.byte	3
+ 800 0303 01       		.byte	1
+ 801 0304 04       		.byte	4
+ 802 0305 01       		.byte	1
+ 803 0306 05       		.byte	5
+ 804 0307 C0       		.byte	-64
+ 805 0308 07       		.byte	7
+ 806 0309 28       		.byte	40
+ 807 030a 08       		.byte	8
+ 808 030b 15       		.byte	21
+ 809 030c 09       		.byte	9
+ 810 030d 01       		.byte	1
+ 811 030e 0B       		.byte	11
+ 812 030f 01       		.byte	1
+ 813 0310 0C       		.byte	12
+ 814 0311 84       		.byte	-124
+ 815 0312 0D       		.byte	13
+ 816 0313 20       		.byte	32
+ 817 0314 0F       		.byte	15
+ 818 0315 80       		.byte	-128
+ 819 0316 10       		.byte	16
+ 820 0317 A8       		.byte	-88
+ 821 0318 13       		.byte	19
+ 822 0319 28       		.byte	40
+ 823 031a 14       		.byte	20
+ 824 031b 81       		.byte	-127
+ 825 031c 16       		.byte	22
+ 826 031d 08       		.byte	8
+ 827 031e 17       		.byte	23
+ 828 031f 04       		.byte	4
+ 829 0320 18       		.byte	24
+ 830 0321 0C       		.byte	12
+ 831 0322 1A       		.byte	26
+ 832 0323 01       		.byte	1
+ 833 0324 1D       		.byte	29
+ 834 0325 40       		.byte	64
+ 835 0326 1F       		.byte	31
+ 836 0327 24       		.byte	36
+ 837 0328 26       		.byte	38
+ 838 0329 08       		.byte	8
+ 839 032a 27       		.byte	39
+ 840 032b 51       		.byte	81
+ 841 032c 37       		.byte	55
+ 842 032d 11       		.byte	17
+ 843 032e 3E       		.byte	62
+ 844 032f 16       		.byte	22
+ 845 0330 44       		.byte	68
+ 846 0331 14       		.byte	20
+ 847 0332 45       		.byte	69
+ 848 0333 08       		.byte	8
+ 849 0334 47       		.byte	71
+ 850 0335 44       		.byte	68
+ 851 0336 4C       		.byte	76
+ 852 0337 04       		.byte	4
+ 853 0338 4D       		.byte	77
+ 854 0339 80       		.byte	-128
+ 855 033a 56       		.byte	86
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 16
+
+
+ 856 033b 08       		.byte	8
+ 857 033c 57       		.byte	87
+ 858 033d 40       		.byte	64
+ 859 033e 5E       		.byte	94
+ 860 033f 01       		.byte	1
+ 861 0340 67       		.byte	103
+ 862 0341 4A       		.byte	74
+ 863 0342 83       		.byte	-125
+ 864 0343 21       		.byte	33
+ 865 0344 87       		.byte	-121
+ 866 0345 40       		.byte	64
+ 867 0346 88       		.byte	-120
+ 868 0347 01       		.byte	1
+ 869 0348 8A       		.byte	-118
+ 870 0349 02       		.byte	2
+ 871 034a 8C       		.byte	-116
+ 872 034b 84       		.byte	-124
+ 873 034c 90       		.byte	-112
+ 874 034d 01       		.byte	1
+ 875 034e 92       		.byte	-110
+ 876 034f 14       		.byte	20
+ 877 0350 93       		.byte	-109
+ 878 0351 01       		.byte	1
+ 879 0352 94       		.byte	-108
+ 880 0353 08       		.byte	8
+ 881 0354 98       		.byte	-104
+ 882 0355 04       		.byte	4
+ 883 0356 9C       		.byte	-100
+ 884 0357 10       		.byte	16
+ 885 0358 9E       		.byte	-98
+ 886 0359 02       		.byte	2
+ 887 035a A0       		.byte	-96
+ 888 035b A8       		.byte	-88
+ 889 035c A1       		.byte	-95
+ 890 035d 29       		.byte	41
+ 891 035e B5       		.byte	-75
+ 892 035f 21       		.byte	33
+ 893 0360 C0       		.byte	-64
+ 894 0361 FF       		.byte	-1
+ 895 0362 C2       		.byte	-62
+ 896 0363 FF       		.byte	-1
+ 897 0364 C4       		.byte	-60
+ 898 0365 FE       		.byte	-2
+ 899 0366 CC       		.byte	-52
+ 900 0367 A0       		.byte	-96
+ 901 0368 CE       		.byte	-50
+ 902 0369 E0       		.byte	-32
+ 903 036a D0       		.byte	-48
+ 904 036b 70       		.byte	112
+ 905 036c D2       		.byte	-46
+ 906 036d 30       		.byte	48
+ 907 036e D6       		.byte	-42
+ 908 036f 80       		.byte	-128
+ 909 0370 D8       		.byte	-40
+ 910 0371 B0       		.byte	-80
+ 911 0372 E0       		.byte	-32
+ 912 0373 08       		.byte	8
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 17
+
+
+ 913 0374 E8       		.byte	-24
+ 914 0375 20       		.byte	32
+ 915 0376 EA       		.byte	-22
+ 916 0377 05       		.byte	5
+ 917 0378 30       		.byte	48
+ 918 0379 10       		.byte	16
+ 919 037a CC       		.byte	-52
+ 920 037b 10       		.byte	16
+ 921 037c 9C       		.byte	-100
+ 922 037d 10       		.byte	16
+ 923 037e 3E       		.byte	62
+ 924 037f 10       		.byte	16
+ 925 0380 9C       		.byte	-100
+ 926 0381 10       		.byte	16
+ 927 0382 CE       		.byte	-50
+ 928 0383 20       		.byte	32
+ 929 0384 96       		.byte	-106
+ 930 0385 10       		.byte	16
+ 931 0386 9C       		.byte	-100
+ 932 0387 10       		.byte	16
+ 933 0388 84       		.byte	-124
+ 934 0389 04       		.byte	4
+ 935 038a 96       		.byte	-106
+ 936 038b 10       		.byte	16
+ 937 038c 9C       		.byte	-100
+ 938 038d 10       		.byte	16
+ 939 038e E6       		.byte	-26
+ 940 038f 40       		.byte	64
+ 941 0390 13       		.byte	19
+ 942 0391 02       		.byte	2
+ 943 0392 16       		.byte	22
+ 944 0393 40       		.byte	64
+ 945 0394 74       		.byte	116
+ 946 0395 04       		.byte	4
+ 947 0396 7B       		.byte	123
+ 948 0397 02       		.byte	2
+ 949 0398 84       		.byte	-124
+ 950 0399 10       		.byte	16
+ 951 039a 86       		.byte	-122
+ 952 039b 40       		.byte	64
+ 953 039c 9C       		.byte	-100
+ 954 039d 10       		.byte	16
+ 955 039e 9F       		.byte	-97
+ 956 039f 02       		.byte	2
+ 957 03a0 A0       		.byte	-96
+ 958 03a1 04       		.byte	4
+ 959 03a2 A3       		.byte	-93
+ 960 03a3 02       		.byte	2
+ 961 03a4 AA       		.byte	-86
+ 962 03a5 10       		.byte	16
+ 963 03a6 AB       		.byte	-85
+ 964 03a7 02       		.byte	2
+ 965 03a8 B3       		.byte	-77
+ 966 03a9 02       		.byte	2
+ 967 03aa C4       		.byte	-60
+ 968 03ab 30       		.byte	48
+ 969 03ac DC       		.byte	-36
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 18
+
+
+ 970 03ad 80       		.byte	-128
+ 971 03ae DE       		.byte	-34
+ 972 03af 20       		.byte	32
+ 973 03b0 E0       		.byte	-32
+ 974 03b1 10       		.byte	16
+ 975 03b2 E6       		.byte	-26
+ 976 03b3 40       		.byte	64
+ 977 03b4 EA       		.byte	-22
+ 978 03b5 A0       		.byte	-96
+ 979 03b6 13       		.byte	19
+ 980 03b7 28       		.byte	40
+ 981 03b8 15       		.byte	21
+ 982 03b9 04       		.byte	4
+ 983 03ba 78       		.byte	120
+ 984 03bb 10       		.byte	16
+ 985 03bc 7F       		.byte	127
+ 986 03bd 40       		.byte	64
+ 987 03be 81       		.byte	-127
+ 988 03bf 02       		.byte	2
+ 989 03c0 85       		.byte	-123
+ 990 03c1 04       		.byte	4
+ 991 03c2 C4       		.byte	-60
+ 992 03c3 0E       		.byte	14
+ 993 03c4 DE       		.byte	-34
+ 994 03c5 03       		.byte	3
+ 995 03c6 10       		.byte	16
+ 996 03c7 40       		.byte	64
+ 997 03c8 75       		.byte	117
+ 998 03c9 02       		.byte	2
+ 999 03ca 87       		.byte	-121
+ 1000 03cb 40       		.byte	64
+ 1001 03cc 88       		.byte	-120
+ 1002 03cd 40       		.byte	64
+ 1003 03ce 97       		.byte	-105
+ 1004 03cf 80       		.byte	-128
+ 1005 03d0 99       		.byte	-103
+ 1006 03d1 02       		.byte	2
+ 1007 03d2 AB       		.byte	-85
+ 1008 03d3 28       		.byte	40
+ 1009 03d4 B0       		.byte	-80
+ 1010 03d5 10       		.byte	16
+ 1011 03d6 C4       		.byte	-60
+ 1012 03d7 08       		.byte	8
+ 1013 03d8 DE       		.byte	-34
+ 1014 03d9 04       		.byte	4
+ 1015 03da E2       		.byte	-30
+ 1016 03db 01       		.byte	1
+ 1017 03dc E8       		.byte	-24
+ 1018 03dd 04       		.byte	4
+ 1019 03de 00       		.byte	0
+ 1020 03df 01       		.byte	1
+ 1021 03e0 01       		.byte	1
+ 1022 03e1 01       		.byte	1
+ 1023 03e2 0C       		.byte	12
+ 1024 03e3 01       		.byte	1
+ 1025 03e4 0D       		.byte	13
+ 1026 03e5 01       		.byte	1
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 19
+
+
+ 1027 03e6 10       		.byte	16
+ 1028 03e7 01       		.byte	1
+ 1029 03e8 11       		.byte	17
+ 1030 03e9 01       		.byte	1
+ 1031 03ea 1C       		.byte	28
+ 1032 03eb 01       		.byte	1
+ 1033 03ec 1D       		.byte	29
+ 1034 03ed 01       		.byte	1
+ 1035 03ee 00       		.byte	0
+ 1036 03ef 03       		.byte	3
+ 1037 03f0 03       		.byte	3
+ 1038 03f1 C0       		.byte	-64
+ 1039 03f2 00       		.byte	0
+ 1040 03f3 00       		.byte	0
+ 1041 03f4 82       		.byte	-126
+ 1042 03f5 80       		.byte	-128
+ 1043 03f6 00       		.byte	0
+ 1044 03f7 00       		.byte	0
+ 1045 03f8 43       		.byte	67
+ 1046 03f9 00       		.byte	0
+ 1047 03fa 00       		.byte	0
+ 1048 03fb 00       		.byte	0
+ 1049 03fc 00       		.byte	0
+ 1050 03fd 7F       		.byte	127
+ 1051 03fe 7F       		.byte	127
+ 1052 03ff 00       		.byte	0
+ 1053 0400 00       		.byte	0
+ 1054 0401 00       		.byte	0
+ 1055 0402 00       		.byte	0
+ 1056 0403 00       		.byte	0
+ 1057 0404 83       		.byte	-125
+ 1058 0405 00       		.byte	0
+ 1059 0406 40       		.byte	64
+ 1060 0407 80       		.byte	-128
+ 1061 0408 83       		.byte	-125
+ 1062 0409 00       		.byte	0
+ 1063 040a 83       		.byte	-125
+ 1064 040b 00       		.byte	0
+ 1065 040c 00       		.byte	0
+ 1066 040d 00       		.byte	0
+ 1067 040e 00       		.byte	0
+ 1068 040f 00       		.byte	0
+ 1069 0410 00       		.byte	0
+ 1070 0411 0B       		.byte	11
+ 1071 0412 0B       		.byte	11
+ 1072 0413 00       		.byte	0
+ 1073 0414 00       		.byte	0
+ 1074 0415 00       		.byte	0
+ 1075 0416 00       		.byte	0
+ 1076 0417 00       		.byte	0
+ 1077              		.section	.cywolatch,"a",%progbits
+ 1078              		.align	2
+ 1079              		.type	cy_meta_wonvl, %object
+ 1080              		.size	cy_meta_wonvl, 4
+ 1081              	cy_meta_wonvl:
+ 1082 0000 BC       		.byte	-68
+ 1083 0001 90       		.byte	-112
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 20
+
+
+ 1084 0002 AC       		.byte	-84
+ 1085 0003 AF       		.byte	-81
+ 1086              		.section	.cycustnvl,"a",%progbits
+ 1087              		.align	2
+ 1088              		.type	cy_meta_custnvl, %object
+ 1089              		.size	cy_meta_custnvl, 4
+ 1090              	cy_meta_custnvl:
+ 1091 0000 00       		.byte	0
+ 1092 0001 00       		.byte	0
+ 1093 0002 40       		.byte	64
+ 1094 0003 05       		.byte	5
+ 1095              		.section	.cymeta,"a",%progbits
+ 1096              		.align	2
+ 1097              		.type	cy_metadata, %object
+ 1098              		.size	cy_metadata, 12
+ 1099              	cy_metadata:
+ 1100 0000 00       		.byte	0
+ 1101 0001 01       		.byte	1
+ 1102 0002 2E       		.byte	46
+ 1103 0003 16       		.byte	22
+ 1104 0004 10       		.byte	16
+ 1105 0005 69       		.byte	105
+ 1106 0006 00       		.byte	0
+ 1107 0007 01       		.byte	1
+ 1108 0008 00       		.byte	0
+ 1109 0009 00       		.byte	0
+ 1110 000a 00       		.byte	0
+ 1111 000b 00       		.byte	0
+ 1112              		.section	.cyflashprotect,"a",%progbits
+ 1113              		.align	2
+ 1114              		.type	cy_meta_flashprotect, %object
+ 1115              		.size	cy_meta_flashprotect, 256
+ 1116              	cy_meta_flashprotect:
+ 1117 0000 00000000 		.space	256
+ 1117      00000000 
+ 1117      00000000 
+ 1117      00000000 
+ 1117      00000000 
+ 1118              		.text
+ 1119              	.Letext0:
+ 1120              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.1\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1121              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.1\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1122              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 1123              		.section	.debug_info,"",%progbits
+ 1124              	.Ldebug_info0:
+ 1125 0000 31010000 		.4byte	0x131
+ 1126 0004 0400     		.2byte	0x4
+ 1127 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1128 000a 04       		.byte	0x4
+ 1129 000b 01       		.uleb128 0x1
+ 1130 000c 24000000 		.4byte	.LASF17
+ 1131 0010 0C       		.byte	0xc
+ 1132 0011 C2010000 		.4byte	.LASF18
+ 1133 0015 25010000 		.4byte	.LASF19
+ 1134 0019 00000000 		.4byte	.Ldebug_line0
+ 1135 001d 02       		.uleb128 0x2
+ 1136 001e 01       		.byte	0x1
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 21
+
+
+ 1137 001f 06       		.byte	0x6
+ 1138 0020 B6010000 		.4byte	.LASF0
+ 1139 0024 03       		.uleb128 0x3
+ 1140 0025 00000000 		.4byte	.LASF9
+ 1141 0029 01       		.byte	0x1
+ 1142 002a 1D       		.byte	0x1d
+ 1143 002b 2F000000 		.4byte	0x2f
+ 1144 002f 02       		.uleb128 0x2
+ 1145 0030 01       		.byte	0x1
+ 1146 0031 08       		.byte	0x8
+ 1147 0032 16000000 		.4byte	.LASF1
+ 1148 0036 02       		.uleb128 0x2
+ 1149 0037 02       		.byte	0x2
+ 1150 0038 05       		.byte	0x5
+ 1151 0039 A3010000 		.4byte	.LASF2
+ 1152 003d 02       		.uleb128 0x2
+ 1153 003e 02       		.byte	0x2
+ 1154 003f 07       		.byte	0x7
+ 1155 0040 C4000000 		.4byte	.LASF3
+ 1156 0044 02       		.uleb128 0x2
+ 1157 0045 04       		.byte	0x4
+ 1158 0046 05       		.byte	0x5
+ 1159 0047 AD010000 		.4byte	.LASF4
+ 1160 004b 02       		.uleb128 0x2
+ 1161 004c 04       		.byte	0x4
+ 1162 004d 07       		.byte	0x7
+ 1163 004e B2000000 		.4byte	.LASF5
+ 1164 0052 02       		.uleb128 0x2
+ 1165 0053 08       		.byte	0x8
+ 1166 0054 05       		.byte	0x5
+ 1167 0055 95010000 		.4byte	.LASF6
+ 1168 0059 02       		.uleb128 0x2
+ 1169 005a 08       		.byte	0x8
+ 1170 005b 07       		.byte	0x7
+ 1171 005c 06010000 		.4byte	.LASF7
+ 1172 0060 04       		.uleb128 0x4
+ 1173 0061 04       		.byte	0x4
+ 1174 0062 05       		.byte	0x5
+ 1175 0063 696E7400 		.ascii	"int\000"
+ 1176 0067 02       		.uleb128 0x2
+ 1177 0068 04       		.byte	0x4
+ 1178 0069 07       		.byte	0x7
+ 1179 006a F9000000 		.4byte	.LASF8
+ 1180 006e 03       		.uleb128 0x3
+ 1181 006f 1D010000 		.4byte	.LASF10
+ 1182 0073 02       		.byte	0x2
+ 1183 0074 18       		.byte	0x18
+ 1184 0075 24000000 		.4byte	0x24
+ 1185 0079 05       		.uleb128 0x5
+ 1186 007a 91000000 		.4byte	0x91
+ 1187 007e 8A000000 		.4byte	0x8a
+ 1188 0082 06       		.uleb128 0x6
+ 1189 0083 8A000000 		.4byte	0x8a
+ 1190 0087 1704     		.2byte	0x417
+ 1191 0089 00       		.byte	0
+ 1192 008a 02       		.uleb128 0x2
+ 1193 008b 04       		.byte	0x4
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 22
+
+
+ 1194 008c 07       		.byte	0x7
+ 1195 008d 8C010000 		.4byte	.LASF11
+ 1196 0091 07       		.uleb128 0x7
+ 1197 0092 6E000000 		.4byte	0x6e
+ 1198 0096 08       		.uleb128 0x8
+ 1199 0097 E7000000 		.4byte	.LASF12
+ 1200 009b 03       		.byte	0x3
+ 1201 009c 1F       		.byte	0x1f
+ 1202 009d A7000000 		.4byte	0xa7
+ 1203 00a1 05       		.uleb128 0x5
+ 1204 00a2 03       		.byte	0x3
+ 1205 00a3 00000000 		.4byte	cy_meta_configecc
+ 1206 00a7 07       		.uleb128 0x7
+ 1207 00a8 79000000 		.4byte	0x79
+ 1208 00ac 05       		.uleb128 0x5
+ 1209 00ad 91000000 		.4byte	0x91
+ 1210 00b1 BC000000 		.4byte	0xbc
+ 1211 00b5 09       		.uleb128 0x9
+ 1212 00b6 8A000000 		.4byte	0x8a
+ 1213 00ba 03       		.byte	0x3
+ 1214 00bb 00       		.byte	0
+ 1215 00bc 08       		.uleb128 0x8
+ 1216 00bd D7000000 		.4byte	.LASF13
+ 1217 00c1 03       		.byte	0x3
+ 1218 00c2 AF       		.byte	0xaf
+ 1219 00c3 CD000000 		.4byte	0xcd
+ 1220 00c7 05       		.uleb128 0x5
+ 1221 00c8 03       		.byte	0x3
+ 1222 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1223 00cd 07       		.uleb128 0x7
+ 1224 00ce AC000000 		.4byte	0xac
+ 1225 00d2 08       		.uleb128 0x8
+ 1226 00d3 7E010000 		.4byte	.LASF14
+ 1227 00d7 03       		.byte	0x3
+ 1228 00d8 BD       		.byte	0xbd
+ 1229 00d9 E3000000 		.4byte	0xe3
+ 1230 00dd 05       		.uleb128 0x5
+ 1231 00de 03       		.byte	0x3
+ 1232 00df 00000000 		.4byte	cy_meta_wonvl
+ 1233 00e3 07       		.uleb128 0x7
+ 1234 00e4 AC000000 		.4byte	0xac
+ 1235 00e8 05       		.uleb128 0x5
+ 1236 00e9 91000000 		.4byte	0x91
+ 1237 00ed F8000000 		.4byte	0xf8
+ 1238 00f1 09       		.uleb128 0x9
+ 1239 00f2 8A000000 		.4byte	0x8a
+ 1240 00f6 FF       		.byte	0xff
+ 1241 00f7 00       		.byte	0
+ 1242 00f8 08       		.uleb128 0x8
+ 1243 00f9 69010000 		.4byte	.LASF15
+ 1244 00fd 03       		.byte	0x3
+ 1245 00fe CB       		.byte	0xcb
+ 1246 00ff 09010000 		.4byte	0x109
+ 1247 0103 05       		.uleb128 0x5
+ 1248 0104 03       		.byte	0x3
+ 1249 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1250 0109 07       		.uleb128 0x7
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 23
+
+
+ 1251 010a E8000000 		.4byte	0xe8
+ 1252 010e 05       		.uleb128 0x5
+ 1253 010f 91000000 		.4byte	0x91
+ 1254 0113 1E010000 		.4byte	0x11e
+ 1255 0117 09       		.uleb128 0x9
+ 1256 0118 8A000000 		.4byte	0x8a
+ 1257 011c 0B       		.byte	0xb
+ 1258 011d 00       		.byte	0
+ 1259 011e 08       		.uleb128 0x8
+ 1260 011f 0A000000 		.4byte	.LASF16
+ 1261 0123 03       		.byte	0x3
+ 1262 0124 F8       		.byte	0xf8
+ 1263 0125 2F010000 		.4byte	0x12f
+ 1264 0129 05       		.uleb128 0x5
+ 1265 012a 03       		.byte	0x3
+ 1266 012b 00000000 		.4byte	cy_metadata
+ 1267 012f 07       		.uleb128 0x7
+ 1268 0130 0E010000 		.4byte	0x10e
+ 1269 0134 00       		.byte	0
+ 1270              		.section	.debug_abbrev,"",%progbits
+ 1271              	.Ldebug_abbrev0:
+ 1272 0000 01       		.uleb128 0x1
+ 1273 0001 11       		.uleb128 0x11
+ 1274 0002 01       		.byte	0x1
+ 1275 0003 25       		.uleb128 0x25
+ 1276 0004 0E       		.uleb128 0xe
+ 1277 0005 13       		.uleb128 0x13
+ 1278 0006 0B       		.uleb128 0xb
+ 1279 0007 03       		.uleb128 0x3
+ 1280 0008 0E       		.uleb128 0xe
+ 1281 0009 1B       		.uleb128 0x1b
+ 1282 000a 0E       		.uleb128 0xe
+ 1283 000b 10       		.uleb128 0x10
+ 1284 000c 17       		.uleb128 0x17
+ 1285 000d 00       		.byte	0
+ 1286 000e 00       		.byte	0
+ 1287 000f 02       		.uleb128 0x2
+ 1288 0010 24       		.uleb128 0x24
+ 1289 0011 00       		.byte	0
+ 1290 0012 0B       		.uleb128 0xb
+ 1291 0013 0B       		.uleb128 0xb
+ 1292 0014 3E       		.uleb128 0x3e
+ 1293 0015 0B       		.uleb128 0xb
+ 1294 0016 03       		.uleb128 0x3
+ 1295 0017 0E       		.uleb128 0xe
+ 1296 0018 00       		.byte	0
+ 1297 0019 00       		.byte	0
+ 1298 001a 03       		.uleb128 0x3
+ 1299 001b 16       		.uleb128 0x16
+ 1300 001c 00       		.byte	0
+ 1301 001d 03       		.uleb128 0x3
+ 1302 001e 0E       		.uleb128 0xe
+ 1303 001f 3A       		.uleb128 0x3a
+ 1304 0020 0B       		.uleb128 0xb
+ 1305 0021 3B       		.uleb128 0x3b
+ 1306 0022 0B       		.uleb128 0xb
+ 1307 0023 49       		.uleb128 0x49
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 24
+
+
+ 1308 0024 13       		.uleb128 0x13
+ 1309 0025 00       		.byte	0
+ 1310 0026 00       		.byte	0
+ 1311 0027 04       		.uleb128 0x4
+ 1312 0028 24       		.uleb128 0x24
+ 1313 0029 00       		.byte	0
+ 1314 002a 0B       		.uleb128 0xb
+ 1315 002b 0B       		.uleb128 0xb
+ 1316 002c 3E       		.uleb128 0x3e
+ 1317 002d 0B       		.uleb128 0xb
+ 1318 002e 03       		.uleb128 0x3
+ 1319 002f 08       		.uleb128 0x8
+ 1320 0030 00       		.byte	0
+ 1321 0031 00       		.byte	0
+ 1322 0032 05       		.uleb128 0x5
+ 1323 0033 01       		.uleb128 0x1
+ 1324 0034 01       		.byte	0x1
+ 1325 0035 49       		.uleb128 0x49
+ 1326 0036 13       		.uleb128 0x13
+ 1327 0037 01       		.uleb128 0x1
+ 1328 0038 13       		.uleb128 0x13
+ 1329 0039 00       		.byte	0
+ 1330 003a 00       		.byte	0
+ 1331 003b 06       		.uleb128 0x6
+ 1332 003c 21       		.uleb128 0x21
+ 1333 003d 00       		.byte	0
+ 1334 003e 49       		.uleb128 0x49
+ 1335 003f 13       		.uleb128 0x13
+ 1336 0040 2F       		.uleb128 0x2f
+ 1337 0041 05       		.uleb128 0x5
+ 1338 0042 00       		.byte	0
+ 1339 0043 00       		.byte	0
+ 1340 0044 07       		.uleb128 0x7
+ 1341 0045 26       		.uleb128 0x26
+ 1342 0046 00       		.byte	0
+ 1343 0047 49       		.uleb128 0x49
+ 1344 0048 13       		.uleb128 0x13
+ 1345 0049 00       		.byte	0
+ 1346 004a 00       		.byte	0
+ 1347 004b 08       		.uleb128 0x8
+ 1348 004c 34       		.uleb128 0x34
+ 1349 004d 00       		.byte	0
+ 1350 004e 03       		.uleb128 0x3
+ 1351 004f 0E       		.uleb128 0xe
+ 1352 0050 3A       		.uleb128 0x3a
+ 1353 0051 0B       		.uleb128 0xb
+ 1354 0052 3B       		.uleb128 0x3b
+ 1355 0053 0B       		.uleb128 0xb
+ 1356 0054 49       		.uleb128 0x49
+ 1357 0055 13       		.uleb128 0x13
+ 1358 0056 3F       		.uleb128 0x3f
+ 1359 0057 19       		.uleb128 0x19
+ 1360 0058 02       		.uleb128 0x2
+ 1361 0059 18       		.uleb128 0x18
+ 1362 005a 00       		.byte	0
+ 1363 005b 00       		.byte	0
+ 1364 005c 09       		.uleb128 0x9
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 25
+
+
+ 1365 005d 21       		.uleb128 0x21
+ 1366 005e 00       		.byte	0
+ 1367 005f 49       		.uleb128 0x49
+ 1368 0060 13       		.uleb128 0x13
+ 1369 0061 2F       		.uleb128 0x2f
+ 1370 0062 0B       		.uleb128 0xb
+ 1371 0063 00       		.byte	0
+ 1372 0064 00       		.byte	0
+ 1373 0065 00       		.byte	0
+ 1374              		.section	.debug_aranges,"",%progbits
+ 1375 0000 14000000 		.4byte	0x14
+ 1376 0004 0200     		.2byte	0x2
+ 1377 0006 00000000 		.4byte	.Ldebug_info0
+ 1378 000a 04       		.byte	0x4
+ 1379 000b 00       		.byte	0
+ 1380 000c 0000     		.2byte	0
+ 1381 000e 0000     		.2byte	0
+ 1382 0010 00000000 		.4byte	0
+ 1383 0014 00000000 		.4byte	0
+ 1384              		.section	.debug_line,"",%progbits
+ 1385              	.Ldebug_line0:
+ 1386 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1386      02003701 
+ 1386      00000201 
+ 1386      FB0E0D00 
+ 1386      01010101 
+ 1387              	.LASF9:
+ 1388 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1388      6E74385F 
+ 1388      7400
+ 1389              	.LASF16:
+ 1390 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1390      65746164 
+ 1390      61746100 
+ 1391              	.LASF1:
+ 1392 0016 756E7369 		.ascii	"unsigned char\000"
+ 1392      676E6564 
+ 1392      20636861 
+ 1392      7200
+ 1393              	.LASF17:
+ 1394 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1394      43313120 
+ 1394      352E342E 
+ 1394      31203230 
+ 1394      31363036 
+ 1395 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1395      20726576 
+ 1395      6973696F 
+ 1395      6E203233 
+ 1395      37373135 
+ 1396 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1396      66756E63 
+ 1396      74696F6E 
+ 1396      2D736563 
+ 1396      74696F6E 
+ 1397              	.LASF5:
+ 1398 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 26
+
+
+ 1398      20756E73 
+ 1398      69676E65 
+ 1398      6420696E 
+ 1398      7400
+ 1399              	.LASF3:
+ 1400 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1400      7420756E 
+ 1400      7369676E 
+ 1400      65642069 
+ 1400      6E7400
+ 1401              	.LASF13:
+ 1402 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1402      6574615F 
+ 1402      63757374 
+ 1402      6E766C00 
+ 1403              	.LASF12:
+ 1404 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1404      6574615F 
+ 1404      636F6E66 
+ 1404      69676563 
+ 1404      6300
+ 1405              	.LASF8:
+ 1406 00f9 756E7369 		.ascii	"unsigned int\000"
+ 1406      676E6564 
+ 1406      20696E74 
+ 1406      00
+ 1407              	.LASF7:
+ 1408 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1408      206C6F6E 
+ 1408      6720756E 
+ 1408      7369676E 
+ 1408      65642069 
+ 1409              	.LASF10:
+ 1410 011d 75696E74 		.ascii	"uint8_t\000"
+ 1410      385F7400 
+ 1411              	.LASF19:
+ 1412 0125 433A5C55 		.ascii	"C:\\Users\\tgarrison\\Documents\\school\\ECE381\\bl"
+ 1412      73657273 
+ 1412      5C746761 
+ 1412      72726973 
+ 1412      6F6E5C44 
+ 1413 0152 696E6B5F 		.ascii	"ink_led\\Lab6_I2C.cydsn\000"
+ 1413      6C65645C 
+ 1413      4C616236 
+ 1413      5F493243 
+ 1413      2E637964 
+ 1414              	.LASF15:
+ 1415 0169 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1415      6574615F 
+ 1415      666C6173 
+ 1415      6870726F 
+ 1415      74656374 
+ 1416              	.LASF14:
+ 1417 017e 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1417      6574615F 
+ 1417      776F6E76 
+ 1417      6C00
+ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccLEZgrR.s 			page 27
+
+
+ 1418              	.LASF11:
+ 1419 018c 73697A65 		.ascii	"sizetype\000"
+ 1419      74797065 
+ 1419      00
+ 1420              	.LASF6:
+ 1421 0195 6C6F6E67 		.ascii	"long long int\000"
+ 1421      206C6F6E 
+ 1421      6720696E 
+ 1421      7400
+ 1422              	.LASF2:
+ 1423 01a3 73686F72 		.ascii	"short int\000"
+ 1423      7420696E 
+ 1423      7400
+ 1424              	.LASF4:
+ 1425 01ad 6C6F6E67 		.ascii	"long int\000"
+ 1425      20696E74 
+ 1425      00
+ 1426              	.LASF0:
+ 1427 01b6 7369676E 		.ascii	"signed char\000"
+ 1427      65642063 
+ 1427      68617200 
+ 1428              	.LASF18:
+ 1429 01c2 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1429      72617465 
+ 1429      645F536F 
+ 1429      75726365 
+ 1429      5C50536F 
+ 1430              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
