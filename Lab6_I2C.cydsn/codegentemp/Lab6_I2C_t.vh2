@@ -1,5 +1,5 @@
--- Project:   C:\Users\tgarrison\Documents\school\ECE381\ECE381\blink_led\Lab6_I2C.cydsn\Lab6_I2C.cyprj
--- Generated: 02/22/2018 19:17:21
+-- Project:   C:\Users\egarr\Documents\school\ECE381\Lab6_I2C.cydsn\Lab6_I2C.cyprj
+-- Generated: 02/24/2018 10:43:29
 -- PSoC Creator  4.1 Update 1
 
 ENTITY Lab6_I2C IS

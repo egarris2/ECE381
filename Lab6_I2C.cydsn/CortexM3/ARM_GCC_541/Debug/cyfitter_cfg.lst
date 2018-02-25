@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
   29:Generated_Source\PSoC5/cyfitter_cfg.c **** 
   30:Generated_Source\PSoC5/cyfitter_cfg.c **** #if defined(__GNUC__) || defined(__ARMCC_VERSION)
   31:Generated_Source\PSoC5/cyfitter_cfg.c ****     #define CYPACKED 
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 2
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 2
 
 
   32:Generated_Source\PSoC5/cyfitter_cfg.c ****     #define CYPACKED_ATTR __attribute__ ((packed))
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
   86:Generated_Source\PSoC5/cyfitter_cfg.c **** 	(void)memcpy(dest, src, n);
   87:Generated_Source\PSoC5/cyfitter_cfg.c **** }
   88:Generated_Source\PSoC5/cyfitter_cfg.c **** CY_CFG_UNUSED
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 3
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 3
 
 
   89:Generated_Source\PSoC5/cyfitter_cfg.c **** static void CYCONFIGCPYCODE(void *dest, const void *src, size_t n);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
   42              		.thumb_func
   43              		.type	cfg_write_bytes32, %function
   44              	cfg_write_bytes32:
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 4
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 4
 
 
   45              	.LFB4:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  181:Generated_Source\PSoC5/cyfitter_cfg.c **** *  This function is used for setting up the chip configuration areas that
  182:Generated_Source\PSoC5/cyfitter_cfg.c **** *  contain relatively sparse data.
  183:Generated_Source\PSoC5/cyfitter_cfg.c **** *
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 5
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 5
 
 
  184:Generated_Source\PSoC5/cyfitter_cfg.c **** * Parameters:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
   80              		.loc 1 203 0
   81 0014 01EB4205 		add	r5, r1, r2, lsl #1
   82 0018 11F81240 		ldrb	r4, [r1, r2, lsl #1]	@ zero_extendqisi2
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 6
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 6
 
 
   83 001c 6D78     		ldrb	r5, [r5, #1]	@ zero_extendqisi2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  214:Generated_Source\PSoC5/cyfitter_cfg.c **** * Summary:
  215:Generated_Source\PSoC5/cyfitter_cfg.c **** *  Performs the initialization of all of the clocks in the device based on the
  216:Generated_Source\PSoC5/cyfitter_cfg.c **** *  settings in the Clock tab of the DWR.  This includes enabling the requested
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 7
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 7
 
 
  217:Generated_Source\PSoC5/cyfitter_cfg.c **** *  clocks and setting the necessary dividers to produce the desired frequency. 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  271:Generated_Source\PSoC5/cyfitter_cfg.c **** 
  272:Generated_Source\PSoC5/cyfitter_cfg.c **** 
  273:Generated_Source\PSoC5/cyfitter_cfg.c **** /* Analog API Functions */
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 8
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 8
 
 
  274:Generated_Source\PSoC5/cyfitter_cfg.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  154              		.cfi_endproc
  155              	.LFE6:
  156              		.size	AnalogSetDefault, .-AnalogSetDefault
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 9
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 9
 
 
  157              		.section	.text.CYMEMZERO,"ax",%progbits
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  206 000a 0233     		adds	r3, r3, #2
  207 000c 1A70     		strb	r2, [r3]
  238:Generated_Source\PSoC5/cyfitter_cfg.c **** 	CY_SET_XTND_REG8((void CYFAR *)(CYREG_CLKDIST_CR), 0x08u);
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 10
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 10
 
 
  208              		.loc 1 238 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  250:Generated_Source\PSoC5/cyfitter_cfg.c **** 	{ 
  253              		.loc 1 250 0 discriminator 4
  254 005a 013D     		subs	r5, r5, #1
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 11
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 11
 
 
  255              	.LVL22:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  298              	.L21:
  299 0096 00BF     		.align	2
  300              	.L20:
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 12
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 12
 
 
  301 0098 80400040 		.word	1073758336
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  308:Generated_Source\PSoC5/cyfitter_cfg.c **** * may be called during operation when the user informs us that the Vdda voltage
  309:Generated_Source\PSoC5/cyfitter_cfg.c **** * crossed the pump threshold.
  310:Generated_Source\PSoC5/cyfitter_cfg.c **** *
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 13
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 13
 
 
  311:Generated_Source\PSoC5/cyfitter_cfg.c **** * Parameters:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  336:Generated_Source\PSoC5/cyfitter_cfg.c **** * Function Name: cyfitter_cfg
  337:Generated_Source\PSoC5/cyfitter_cfg.c **** ********************************************************************************
  338:Generated_Source\PSoC5/cyfitter_cfg.c **** * Summary:
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 14
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 14
 
 
  339:Generated_Source\PSoC5/cyfitter_cfg.c **** *  This function is called by the start-up code for the selected device. It
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  369:Generated_Source\PSoC5/cyfitter_cfg.c **** 
  370:Generated_Source\PSoC5/cyfitter_cfg.c **** 		CYPACKED typedef struct {
  371:Generated_Source\PSoC5/cyfitter_cfg.c **** 			void CYFAR *dest;
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 15
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 15
 
 
  372:Generated_Source\PSoC5/cyfitter_cfg.c **** 			const void CYFAR *src;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  396:Generated_Source\PSoC5/cyfitter_cfg.c **** 		{
  421              		.loc 1 396 0 is_stmt 0 discriminator 1
  422 002c 072C     		cmp	r4, #7
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 16
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 16
 
 
  423 002e F0D9     		bls	.L29
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  415:Generated_Source\PSoC5/cyfitter_cfg.c **** 		CY_SET_XTND_REG8((void CYFAR *)CYREG_BCTL0_BANK_CTL, CY_GET_XTND_REG8((void CYFAR *)CYREG_BCTL0_B
  460              		.loc 1 415 0
  461 005a 214A     		ldr	r2, .L33+12
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 17
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 17
 
 
  462 005c 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  502 00a4 164A     		ldr	r2, .L33+44
  503 00a6 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
  504 00a8 43F00803 		orr	r3, r3, #8
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 18
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 18
 
 
  505 00ac 1370     		strb	r3, [r2]
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  545 0104 00480040 		.word	1073760256
  546 0108 04000840 		.word	1074266116
  547 010c B0430040 		.word	1073759152
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 19
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 19
 
 
  548              		.cfi_endproc
@@ -1124,10 +1124,10 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  588 0006 00000000 		.4byte	.Ldebug_abbrev0
  589 000a 04       		.byte	0x4
  590 000b 01       		.uleb128 0x1
- 591 000c 0E020000 		.4byte	.LASF52
+ 591 000c CA010000 		.4byte	.LASF52
  592 0010 0C       		.byte	0xc
- 593 0011 FB020000 		.4byte	.LASF53
- 594 0015 1B010000 		.4byte	.LASF54
+ 593 0011 ED020000 		.4byte	.LASF53
+ 594 0015 73020000 		.4byte	.LASF54
  595 0019 00000000 		.4byte	.Ldebug_ranges0+0
  596 001d 00000000 		.4byte	0
  597 0021 00000000 		.4byte	.Ldebug_line0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  602 002c 03       		.uleb128 0x3
  603 002d 16000000 		.4byte	.LASF12
  604 0031 02       		.byte	0x2
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 20
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 20
 
 
  605 0032 D8       		.byte	0xd8
@@ -1154,7 +1154,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  615 0045 04       		.uleb128 0x4
  616 0046 08       		.byte	0x8
  617 0047 04       		.byte	0x4
- 618 0048 95010000 		.4byte	.LASF2
+ 618 0048 51010000 		.4byte	.LASF2
  619 004c 04       		.uleb128 0x4
  620 004d 01       		.byte	0x1
  621 004e 06       		.byte	0x6
@@ -1162,15 +1162,15 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  623 0053 04       		.uleb128 0x4
  624 0054 01       		.byte	0x1
  625 0055 08       		.byte	0x8
- 626 0056 F6010000 		.4byte	.LASF4
+ 626 0056 B2010000 		.4byte	.LASF4
  627 005a 04       		.uleb128 0x4
  628 005b 02       		.byte	0x2
  629 005c 05       		.byte	0x5
- 630 005d 04020000 		.4byte	.LASF5
+ 630 005d C0010000 		.4byte	.LASF5
  631 0061 04       		.uleb128 0x4
  632 0062 02       		.byte	0x2
  633 0063 07       		.byte	0x7
- 634 0064 79010000 		.4byte	.LASF6
+ 634 0064 35010000 		.4byte	.LASF6
  635 0068 04       		.uleb128 0x4
  636 0069 04       		.byte	0x4
  637 006a 05       		.byte	0x5
@@ -1186,19 +1186,19 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  647 007d 04       		.uleb128 0x4
  648 007e 04       		.byte	0x4
  649 007f 07       		.byte	0x7
- 650 0080 8C010000 		.4byte	.LASF10
+ 650 0080 48010000 		.4byte	.LASF10
  651 0084 05       		.uleb128 0x5
  652 0085 04       		.byte	0x4
  653 0086 04       		.uleb128 0x4
  654 0087 01       		.byte	0x1
  655 0088 08       		.byte	0x8
- 656 0089 B7020000 		.4byte	.LASF11
+ 656 0089 A9020000 		.4byte	.LASF11
  657 008d 06       		.uleb128 0x6
  658 008e C6000000 		.4byte	.LASF13
  659 0092 03       		.byte	0x3
  660 0093 9201     		.2byte	0x192
  661 0095 53000000 		.4byte	0x53
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 21
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 21
 
 
  662 0099 06       		.uleb128 0x6
@@ -1214,13 +1214,13 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  672 00b1 04       		.uleb128 0x4
  673 00b2 04       		.byte	0x4
  674 00b3 04       		.byte	0x4
- 675 00b4 D5010000 		.4byte	.LASF16
+ 675 00b4 91010000 		.4byte	.LASF16
  676 00b8 04       		.uleb128 0x4
  677 00b9 08       		.byte	0x8
  678 00ba 04       		.byte	0x4
  679 00bb CC000000 		.4byte	.LASF17
  680 00bf 06       		.uleb128 0x6
- 681 00c0 F1010000 		.4byte	.LASF18
+ 681 00c0 AD010000 		.4byte	.LASF18
  682 00c4 03       		.byte	0x3
  683 00c5 3C02     		.2byte	0x23c
  684 00c7 CB000000 		.4byte	0xcb
@@ -1239,7 +1239,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  697 00e4 9B       		.byte	0x9b
  698 00e5 02010000 		.4byte	0x102
  699 00e9 09       		.uleb128 0x9
- 700 00ea D9020000 		.4byte	.LASF20
+ 700 00ea CB020000 		.4byte	.LASF20
  701 00ee 01       		.byte	0x1
  702 00ef 9D       		.byte	0x9d
  703 00f0 8D000000 		.4byte	0x8d
@@ -1252,13 +1252,13 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  710 0100 01       		.byte	0x1
  711 0101 00       		.byte	0
  712 0102 03       		.uleb128 0x3
- 713 0103 A4020000 		.4byte	.LASF22
+ 713 0103 60020000 		.4byte	.LASF22
  714 0107 01       		.byte	0x1
  715 0108 9F       		.byte	0x9f
  716 0109 E1000000 		.4byte	0xe1
  717 010d 0A       		.uleb128 0xa
  718 010e 1D000000 		.4byte	.LASF55
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 22
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 22
 
 
  719 0112 01       		.byte	0x1
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  773 0183 0D000000 		.4byte	.LASF26
  774 0187 01       		.byte	0x1
  775 0188 C6       		.byte	0xc6
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 23
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 23
 
 
  776 0189 A5000000 		.4byte	0xa5
@@ -1351,7 +1351,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  803 01c9 9C       		.byte	0x9c
  804 01ca DF010000 		.4byte	0x1df
  805 01ce 13       		.uleb128 0x13
- 806 01cf A1010000 		.4byte	.LASF30
+ 806 01cf 5D010000 		.4byte	.LASF30
  807 01d3 01       		.byte	0x1
  808 01d4 2601     		.2byte	0x126
  809 01d6 8D000000 		.4byte	0x8d
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  830 0205 4D       		.byte	0x4d
  831 0206 2C000000 		.4byte	0x2c
  832 020a A3000000 		.4byte	.LLST6
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 24
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 24
 
 
  833 020e 15       		.uleb128 0x15
@@ -1415,13 +1415,13 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  864 023c 9C       		.byte	0x9c
  865 023d 84020000 		.4byte	0x284
  866 0241 0F       		.uleb128 0xf
- 867 0242 5F010000 		.4byte	.LASF33
+ 867 0242 1B010000 		.4byte	.LASF33
  868 0246 01       		.byte	0x1
  869 0247 E5       		.byte	0xe5
  870 0248 A5000000 		.4byte	0xa5
  871 024c CF000000 		.4byte	.LLST7
  872 0250 0F       		.uleb128 0xf
- 873 0251 9C020000 		.4byte	.LASF34
+ 873 0251 58020000 		.4byte	.LASF34
  874 0255 01       		.byte	0x1
  875 0256 E6       		.byte	0xe6
  876 0257 8D000000 		.4byte	0x8d
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  887 0271 E001     		.2byte	0x1e0
  888 0273 00       		.byte	0
  889 0274 15       		.uleb128 0x15
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 25
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 25
 
 
  890 0275 6A000000 		.4byte	.LVL23
@@ -1451,7 +1451,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  897 0282 00       		.byte	0
  898 0283 00       		.byte	0
  899 0284 0C       		.uleb128 0xc
- 900 0285 EF020000 		.4byte	.LASF35
+ 900 0285 E1020000 		.4byte	.LASF35
  901 0289 01       		.byte	0x1
  902 028a 54       		.byte	0x54
  903 028b 00000000 		.4byte	.LFB1
@@ -1460,7 +1460,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  906 0294 9C       		.byte	0x9c
  907 0295 E4020000 		.4byte	0x2e4
  908 0299 18       		.uleb128 0x18
- 909 029a D0010000 		.4byte	.LASF36
+ 909 029a 8C010000 		.4byte	.LASF36
  910 029e 01       		.byte	0x1
  911 029f 54       		.byte	0x54
  912 02a0 84000000 		.4byte	0x84
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  944 02dc 01       		.uleb128 0x1
  945 02dd 52       		.byte	0x52
  946 02de 03       		.uleb128 0x3
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 26
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 26
 
 
  947 02df F3       		.byte	0xf3
@@ -1511,7 +1511,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  954 02e6 EA020000 		.4byte	0x2ea
  955 02ea 19       		.uleb128 0x19
  956 02eb 1A       		.uleb128 0x1a
- 957 02ec C3020000 		.4byte	.LASF39
+ 957 02ec B5020000 		.4byte	.LASF39
  958 02f0 01       		.byte	0x1
  959 02f1 3E01     		.2byte	0x13e
  960 02f3 00000000 		.4byte	.LFB7
@@ -1520,7 +1520,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  963 02fc 9C       		.byte	0x9c
  964 02fd 1E030000 		.4byte	0x31e
  965 0301 1B       		.uleb128 0x1b
- 966 0302 E0020000 		.4byte	.LASF37
+ 966 0302 D2020000 		.4byte	.LASF37
  967 0306 01       		.byte	0x1
  968 0307 3E01     		.2byte	0x13e
  969 0309 8D000000 		.4byte	0x8d
@@ -1535,7 +1535,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  978 031c 53       		.byte	0x53
  979 031d 00       		.byte	0
  980 031e 1A       		.uleb128 0x1a
- 981 031f 39030000 		.4byte	.LASF40
+ 981 031f 2B030000 		.4byte	.LASF40
  982 0323 01       		.byte	0x1
  983 0324 6001     		.2byte	0x160
  984 0326 00000000 		.4byte	.LFB8
@@ -1553,23 +1553,23 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  996 0344 6C01     		.2byte	0x16c
  997 0346 65030000 		.4byte	0x365
  998 034a 1F       		.uleb128 0x1f
- 999 034b 21030000 		.4byte	.LASF41
+ 999 034b 13030000 		.4byte	.LASF41
  1000 034f 01       		.byte	0x1
  1001 0350 6D01     		.2byte	0x16d
  1002 0352 84000000 		.4byte	0x84
  1003 0356 00       		.byte	0
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 27
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 27
 
 
  1004 0357 1F       		.uleb128 0x1f
- 1005 0358 74010000 		.4byte	.LASF42
+ 1005 0358 30010000 		.4byte	.LASF42
  1006 035c 01       		.byte	0x1
  1007 035d 6E01     		.2byte	0x16e
  1008 035f 99000000 		.4byte	0x99
  1009 0363 04       		.byte	0x4
  1010 0364 00       		.byte	0
  1011 0365 06       		.uleb128 0x6
- 1012 0366 B3010000 		.4byte	.LASF43
+ 1012 0366 6F010000 		.4byte	.LASF43
  1013 036a 01       		.byte	0x1
  1014 036b 6F01     		.2byte	0x16f
  1015 036d 41030000 		.4byte	0x341
@@ -1579,7 +1579,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1019 0374 7201     		.2byte	0x172
  1020 0376 A2030000 		.4byte	0x3a2
  1021 037a 1F       		.uleb128 0x1f
- 1022 037b D0010000 		.4byte	.LASF36
+ 1022 037b 8C010000 		.4byte	.LASF36
  1023 037f 01       		.byte	0x1
  1024 0380 7301     		.2byte	0x173
  1025 0382 84000000 		.4byte	0x84
@@ -1591,14 +1591,14 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1031 038f E4020000 		.4byte	0x2e4
  1032 0393 04       		.byte	0x4
  1033 0394 1F       		.uleb128 0x1f
- 1034 0395 74010000 		.4byte	.LASF42
+ 1034 0395 30010000 		.4byte	.LASF42
  1035 0399 01       		.byte	0x1
  1036 039a 7501     		.2byte	0x175
  1037 039c 99000000 		.4byte	0x99
  1038 03a0 08       		.byte	0x8
  1039 03a1 00       		.byte	0
  1040 03a2 06       		.uleb128 0x6
- 1041 03a3 67010000 		.4byte	.LASF44
+ 1041 03a3 23010000 		.4byte	.LASF44
  1042 03a7 01       		.byte	0x1
  1043 03a8 7601     		.2byte	0x176
  1044 03aa 71030000 		.4byte	0x371
@@ -1612,13 +1612,13 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1052 03be 11       		.uleb128 0x11
  1053 03bf 65030000 		.4byte	0x365
  1054 03c3 1C       		.uleb128 0x1c
- 1055 03c4 C0010000 		.4byte	.LASF45
+ 1055 03c4 7C010000 		.4byte	.LASF45
  1056 03c8 01       		.byte	0x1
  1057 03c9 7801     		.2byte	0x178
  1058 03cb D5030000 		.4byte	0x3d5
  1059 03cf 05       		.uleb128 0x5
  1060 03d0 03       		.byte	0x3
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 28
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 28
 
 
  1061 03d1 00000000 		.4byte	cfg_memset_list.5008
@@ -1634,7 +1634,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1071 03ea 11       		.uleb128 0x11
  1072 03eb A2030000 		.4byte	0x3a2
  1073 03ef 1C       		.uleb128 0x1c
- 1074 03f0 29030000 		.4byte	.LASF46
+ 1074 03f0 1B030000 		.4byte	.LASF46
  1075 03f4 01       		.byte	0x1
  1076 03f5 8401     		.2byte	0x184
  1077 03f7 01040000 		.4byte	0x401
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1115 0449 22       		.byte	0x22
  1116 044a 31       		.byte	0x31
  1117 044b 24       		.byte	0x24
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 29
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 29
 
 
  1118 044c 75       		.byte	0x75
@@ -1707,13 +1707,13 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1141 0476 04       		.byte	0x4
  1142 0477 EA030000 		.4byte	0x3ea
  1143 047b 13       		.uleb128 0x13
- 1144 047c E9010000 		.4byte	.LASF47
+ 1144 047c A5010000 		.4byte	.LASF47
  1145 0480 01       		.byte	0x1
  1146 0481 9601     		.2byte	0x196
  1147 0483 84000000 		.4byte	0x84
  1148 0487 1F020000 		.4byte	.LLST15
  1149 048b 13       		.uleb128 0x13
- 1150 048c BC020000 		.4byte	.LASF48
+ 1150 048c AE020000 		.4byte	.LASF48
  1151 0490 01       		.byte	0x1
  1152 0491 9701     		.2byte	0x197
  1153 0493 E4020000 		.4byte	0x2e4
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1172 04bc 5A000000 		.4byte	.LVL42
  1173 04c0 30010000 		.4byte	0x130
  1174 04c4 16       		.uleb128 0x16
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 30
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 30
 
 
  1175 04c5 01       		.uleb128 0x1
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1229 051c 52       		.byte	0x52
  1230 051d 01       		.uleb128 0x1
  1231 051e 3A       		.byte	0x3a
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 31
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 31
 
 
  1232 051f 00       		.byte	0
@@ -1853,12 +1853,12 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1281 0574 00       		.byte	0
  1282 0575 00       		.byte	0
  1283 0576 25       		.uleb128 0x25
- 1284 0577 E8020000 		.4byte	.LASF50
- 1285 057b E8020000 		.4byte	.LASF50
+ 1284 0577 DA020000 		.4byte	.LASF50
+ 1285 057b DA020000 		.4byte	.LASF50
  1286 057f 26       		.uleb128 0x26
- 1287 0580 DB010000 		.4byte	.LASF56
- 1288 0584 DB010000 		.4byte	.LASF56
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 32
+ 1287 0580 97010000 		.4byte	.LASF56
+ 1288 0584 97010000 		.4byte	.LASF56
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 32
 
 
  1289 0588 04       		.byte	0x4
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1343 002e 0B       		.uleb128 0xb
  1344 002f 0B       		.uleb128 0xb
  1345 0030 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 33
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 33
 
 
  1346 0031 0B       		.uleb128 0xb
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1400 0067 49       		.uleb128 0x49
  1401 0068 13       		.uleb128 0x13
  1402 0069 38       		.uleb128 0x38
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 34
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 34
 
 
  1403 006a 0B       		.uleb128 0xb
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1457 00a2 11       		.uleb128 0x11
  1458 00a3 01       		.uleb128 0x1
  1459 00a4 12       		.uleb128 0x12
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 35
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 35
 
 
  1460 00a5 06       		.uleb128 0x6
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1514 00dc 13       		.uleb128 0x13
  1515 00dd 00       		.byte	0
  1516 00de 00       		.byte	0
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 36
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 36
 
 
  1517 00df 11       		.uleb128 0x11
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1571 0116 49       		.uleb128 0x49
  1572 0117 13       		.uleb128 0x13
  1573 0118 02       		.uleb128 0x2
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 37
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 37
 
 
  1574 0119 17       		.uleb128 0x17
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1628 0156 01       		.byte	0x1
  1629 0157 3F       		.uleb128 0x3f
  1630 0158 19       		.uleb128 0x19
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 38
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 38
 
 
  1631 0159 03       		.uleb128 0x3
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1685 0190 01       		.uleb128 0x1
  1686 0191 12       		.uleb128 0x12
  1687 0192 06       		.uleb128 0x6
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 39
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 39
 
 
  1688 0193 01       		.uleb128 0x1
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1742 01c9 00       		.byte	0
  1743 01ca 00       		.byte	0
  1744 01cb 22       		.uleb128 0x22
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 40
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 40
 
 
  1745 01cc 21       		.uleb128 0x21
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1799 0204 03       		.uleb128 0x3
  1800 0205 0E       		.uleb128 0xe
  1801 0206 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 41
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 41
 
 
  1802 0207 0B       		.uleb128 0xb
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1856 0079 53       		.byte	0x53
  1857 007a 00000000 		.4byte	0
  1858 007e 00000000 		.4byte	0
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 42
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 42
 
 
  1859              	.LLST5:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1913 0105 52000000 		.4byte	.LVL20
  1914 0109 96000000 		.4byte	.LVL24
  1915 010d 0100     		.2byte	0x1
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 43
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 43
 
 
  1916 010f 54       		.byte	0x54
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  1970 0191 54       		.byte	0x54
  1971 0192 2C000000 		.4byte	.LVL33
  1972 0196 32000000 		.4byte	.LVL34
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 44
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 44
 
 
  1973 019a 0100     		.2byte	0x1
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  2027 020e 3A       		.byte	0x3a
  2028 020f 1E       		.byte	0x1e
  2029 0210 03       		.byte	0x3
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 45
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 45
 
 
  2030 0211 30000000 		.4byte	cfg_memcpy_list.5009
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  2084              	.Ldebug_ranges0:
  2085 0000 00000000 		.4byte	.LFB3
  2086 0004 02000000 		.4byte	.LFE3
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 46
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 46
 
 
  2087 0008 00000000 		.4byte	.LFB4
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  2121      5F746162 
  2121      6C6500
  2122              	.LASF29:
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 47
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 47
 
 
  2123 005e 416E616C 		.ascii	"AnalogSetDefault\000"
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  2149      00
  2150              	.LASF21:
  2151 00ed 76616C75 		.ascii	"value\000"
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 48
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 48
 
 
  2151      6500
@@ -2837,156 +2837,154 @@ ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 1
  2157      69676E65 
  2157      6420696E 
  2157      7400
- 2158              	.LASF54:
- 2159 011b 433A5C55 		.ascii	"C:\\Users\\tgarrison\\Documents\\school\\ECE381\\bl"
- 2159      73657273 
- 2159      5C746761 
- 2159      72726973 
- 2159      6F6E5C44 
- 2160 0148 696E6B5F 		.ascii	"ink_led\\Lab6_I2C.cydsn\000"
- 2160      6C65645C 
- 2160      4C616236 
- 2160      5F493243 
- 2160      2E637964 
- 2161              	.LASF33:
- 2162 015f 74696D65 		.ascii	"timeout\000"
- 2162      6F757400 
- 2163              	.LASF44:
- 2164 0167 6366675F 		.ascii	"cfg_memcpy_t\000"
- 2164      6D656D63 
- 2164      70795F74 
- 2164      00
- 2165              	.LASF42:
- 2166 0174 73697A65 		.ascii	"size\000"
- 2166      00
- 2167              	.LASF6:
- 2168 0179 73686F72 		.ascii	"short unsigned int\000"
- 2168      7420756E 
- 2168      7369676E 
- 2168      65642069 
- 2168      6E7400
- 2169              	.LASF10:
- 2170 018c 73697A65 		.ascii	"sizetype\000"
- 2170      74797065 
- 2170      00
- 2171              	.LASF2:
- 2172 0195 6C6F6E67 		.ascii	"long double\000"
- 2172      20646F75 
- 2172      626C6500 
- 2173              	.LASF30:
- 2174 01a1 62675F78 		.ascii	"bg_xover_inl_trim\000"
- 2174      6F766572 
- 2174      5F696E6C 
- 2174      5F747269 
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 49
+ 2158              	.LASF33:
+ 2159 011b 74696D65 		.ascii	"timeout\000"
+ 2159      6F757400 
+ 2160              	.LASF44:
+ 2161 0123 6366675F 		.ascii	"cfg_memcpy_t\000"
+ 2161      6D656D63 
+ 2161      70795F74 
+ 2161      00
+ 2162              	.LASF42:
+ 2163 0130 73697A65 		.ascii	"size\000"
+ 2163      00
+ 2164              	.LASF6:
+ 2165 0135 73686F72 		.ascii	"short unsigned int\000"
+ 2165      7420756E 
+ 2165      7369676E 
+ 2165      65642069 
+ 2165      6E7400
+ 2166              	.LASF10:
+ 2167 0148 73697A65 		.ascii	"sizetype\000"
+ 2167      74797065 
+ 2167      00
+ 2168              	.LASF2:
+ 2169 0151 6C6F6E67 		.ascii	"long double\000"
+ 2169      20646F75 
+ 2169      626C6500 
+ 2170              	.LASF30:
+ 2171 015d 62675F78 		.ascii	"bg_xover_inl_trim\000"
+ 2171      6F766572 
+ 2171      5F696E6C 
+ 2171      5F747269 
+ 2171      6D00
+ 2172              	.LASF43:
+ 2173 016f 6366675F 		.ascii	"cfg_memset_t\000"
+ 2173      6D656D73 
+ 2173      65745F74 
+ 2173      00
+ 2174              	.LASF45:
+ 2175 017c 6366675F 		.ascii	"cfg_memset_list\000"
+ 2175      6D656D73 
+ 2175      65745F6C 
+ 2175      69737400 
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 49
 
 
- 2174      6D00
- 2175              	.LASF43:
- 2176 01b3 6366675F 		.ascii	"cfg_memset_t\000"
- 2176      6D656D73 
- 2176      65745F74 
- 2176      00
- 2177              	.LASF45:
- 2178 01c0 6366675F 		.ascii	"cfg_memset_list\000"
- 2178      6D656D73 
- 2178      65745F6C 
- 2178      69737400 
- 2179              	.LASF36:
- 2180 01d0 64657374 		.ascii	"dest\000"
- 2180      00
- 2181              	.LASF16:
- 2182 01d5 666C6F61 		.ascii	"float\000"
- 2182      7400
- 2183              	.LASF56:
- 2184 01db 43794465 		.ascii	"CyDelayCycles\000"
- 2184      6C617943 
- 2184      79636C65 
- 2184      7300
- 2185              	.LASF47:
- 2186 01e9 64657374 		.ascii	"destPtr\000"
- 2186      50747200 
- 2187              	.LASF18:
- 2188 01f1 72656738 		.ascii	"reg8\000"
- 2188      00
- 2189              	.LASF4:
- 2190 01f6 756E7369 		.ascii	"unsigned char\000"
- 2190      676E6564 
- 2190      20636861 
- 2190      7200
- 2191              	.LASF5:
- 2192 0204 73686F72 		.ascii	"short int\000"
- 2192      7420696E 
- 2192      7400
- 2193              	.LASF52:
- 2194 020e 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 2194      43313120 
- 2194      352E342E 
- 2194      31203230 
- 2194      31363036 
- 2195 0241 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 2195      20726576 
- 2195      6973696F 
- 2195      6E203233 
- 2195      37373135 
- 2196 0274 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 2196      66756E63 
- 2196      74696F6E 
- 2196      2D736563 
- 2196      74696F6E 
- 2197              	.LASF34:
- 2198 029c 706C6C4C 		.ascii	"pllLock\000"
- 2198      6F636B00 
- 2199              	.LASF22:
-ARM GAS  C:\Users\TGARRI~1\AppData\Local\Temp\ccM7uhuf.s 			page 50
+ 2176              	.LASF36:
+ 2177 018c 64657374 		.ascii	"dest\000"
+ 2177      00
+ 2178              	.LASF16:
+ 2179 0191 666C6F61 		.ascii	"float\000"
+ 2179      7400
+ 2180              	.LASF56:
+ 2181 0197 43794465 		.ascii	"CyDelayCycles\000"
+ 2181      6C617943 
+ 2181      79636C65 
+ 2181      7300
+ 2182              	.LASF47:
+ 2183 01a5 64657374 		.ascii	"destPtr\000"
+ 2183      50747200 
+ 2184              	.LASF18:
+ 2185 01ad 72656738 		.ascii	"reg8\000"
+ 2185      00
+ 2186              	.LASF4:
+ 2187 01b2 756E7369 		.ascii	"unsigned char\000"
+ 2187      676E6564 
+ 2187      20636861 
+ 2187      7200
+ 2188              	.LASF5:
+ 2189 01c0 73686F72 		.ascii	"short int\000"
+ 2189      7420696E 
+ 2189      7400
+ 2190              	.LASF52:
+ 2191 01ca 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2191      43313120 
+ 2191      352E342E 
+ 2191      31203230 
+ 2191      31363036 
+ 2192 01fd 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2192      20726576 
+ 2192      6973696F 
+ 2192      6E203233 
+ 2192      37373135 
+ 2193 0230 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 2193      66756E63 
+ 2193      74696F6E 
+ 2193      2D736563 
+ 2193      74696F6E 
+ 2194              	.LASF34:
+ 2195 0258 706C6C4C 		.ascii	"pllLock\000"
+ 2195      6F636B00 
+ 2196              	.LASF22:
+ 2197 0260 63795F63 		.ascii	"cy_cfg_addrvalue_t\000"
+ 2197      66675F61 
+ 2197      64647276 
+ 2197      616C7565 
+ 2197      5F7400
+ 2198              	.LASF54:
+ 2199 0273 433A5C55 		.ascii	"C:\\Users\\egarr\\Documents\\school\\ECE381\\Lab6_I"
+ 2199      73657273 
+ 2199      5C656761 
+ 2199      72725C44 
+ 2199      6F63756D 
+ARM GAS  C:\Users\egarr\AppData\Local\Temp\ccQREkQ9.s 			page 50
 
 
- 2200 02a4 63795F63 		.ascii	"cy_cfg_addrvalue_t\000"
- 2200      66675F61 
- 2200      64647276 
- 2200      616C7565 
- 2200      5F7400
+ 2200 02a0 32432E63 		.ascii	"2C.cydsn\000"
+ 2200      7964736E 
+ 2200      00
  2201              	.LASF11:
- 2202 02b7 63686172 		.ascii	"char\000"
+ 2202 02a9 63686172 		.ascii	"char\000"
  2202      00
  2203              	.LASF48:
- 2204 02bc 73726350 		.ascii	"srcPtr\000"
+ 2204 02ae 73726350 		.ascii	"srcPtr\000"
  2204      747200
  2205              	.LASF39:
- 2206 02c3 53657441 		.ascii	"SetAnalogRoutingPumps\000"
+ 2206 02b5 53657441 		.ascii	"SetAnalogRoutingPumps\000"
  2206      6E616C6F 
  2206      67526F75 
  2206      74696E67 
  2206      50756D70 
  2207              	.LASF20:
- 2208 02d9 6F666673 		.ascii	"offset\000"
+ 2208 02cb 6F666673 		.ascii	"offset\000"
  2208      657400
  2209              	.LASF37:
- 2210 02e0 656E6162 		.ascii	"enabled\000"
+ 2210 02d2 656E6162 		.ascii	"enabled\000"
  2210      6C656400 
  2211              	.LASF50:
- 2212 02e8 6D656D73 		.ascii	"memset\000"
+ 2212 02da 6D656D73 		.ascii	"memset\000"
  2212      657400
  2213              	.LASF35:
- 2214 02ef 4359434F 		.ascii	"CYCONFIGCPY\000"
+ 2214 02e1 4359434F 		.ascii	"CYCONFIGCPY\000"
  2214      4E464947 
  2214      43505900 
  2215              	.LASF53:
- 2216 02fb 47656E65 		.ascii	"Generated_Source\\PSoC5\\cyfitter_cfg.c\000"
+ 2216 02ed 47656E65 		.ascii	"Generated_Source\\PSoC5\\cyfitter_cfg.c\000"
  2216      72617465 
  2216      645F536F 
  2216      75726365 
  2216      5C50536F 
  2217              	.LASF41:
- 2218 0321 61646472 		.ascii	"address\000"
+ 2218 0313 61646472 		.ascii	"address\000"
  2218      65737300 
  2219              	.LASF46:
- 2220 0329 6366675F 		.ascii	"cfg_memcpy_list\000"
+ 2220 031b 6366675F 		.ascii	"cfg_memcpy_list\000"
  2220      6D656D63 
  2220      70795F6C 
  2220      69737400 
  2221              	.LASF40:
- 2222 0339 63796669 		.ascii	"cyfitter_cfg\000"
+ 2222 032b 63796669 		.ascii	"cyfitter_cfg\000"
  2222      74746572 
  2222      5F636667 
  2222      00

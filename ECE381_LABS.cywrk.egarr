@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr">
+<ExpandedNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led\TopDesign</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\Pins</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\Analog</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\Clocks</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\Interrupts</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\DMA</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\System</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\Directives</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\Flash Security</v>
+<v>ECE381_LABS\blink_led\blink_led.cydwr\EEPROM</v>
+<v>ECE381_LABS\blink_led\Header Files</v>
+<v>ECE381_LABS\blink_led\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\blink_led\Source Files</v>
+<v>ECE381_LABS\blink_led\Source Files\main.c</v>
+<v>ECE381_LABS\blink_led\Generated_Source</v>
+<v>ECE381_LABS\blink_led\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\digiDesignerCounter\TopDesign</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\Pins</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\Analog</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\Clocks</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\Interrupts</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\DMA</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\System</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\Directives</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\Flash Security</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.cydwr\EEPROM</v>
+<v>ECE381_LABS\digiDesignerCounter\Header Files</v>
+<v>ECE381_LABS\digiDesignerCounter\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\digiDesignerCounter\Source Files</v>
+<v>ECE381_LABS\digiDesignerCounter\Source Files\main.c</v>
+<v>ECE381_LABS\digiDesignerCounter\Generated_Source</v>
+<v>ECE381_LABS\digiDesignerCounter\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Garrison_Exam1\TopDesign</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\Pins</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\Analog</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\Clocks</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\Interrupts</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\DMA</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\System</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\Directives</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\Flash Security</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.cydwr\EEPROM</v>
+<v>ECE381_LABS\Garrison_Exam1\Header Files</v>
+<v>ECE381_LABS\Garrison_Exam1\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Garrison_Exam1\Source Files</v>
+<v>ECE381_LABS\Garrison_Exam1\Source Files\main.c</v>
+<v>ECE381_LABS\Garrison_Exam1\Generated_Source</v>
+<v>ECE381_LABS\Garrison_Exam1\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Lab5_UART\TopDesign</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\Pins</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\Analog</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\Clocks</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\Interrupts</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\DMA</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\System</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\Directives</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\Flash Security</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.cydwr\EEPROM</v>
+<v>ECE381_LABS\Lab5_UART\Header Files</v>
+<v>ECE381_LABS\Lab5_UART\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Lab5_UART\Source Files</v>
+<v>ECE381_LABS\Lab5_UART\Source Files\main.c</v>
+<v>ECE381_LABS\Lab5_UART\Generated_Source</v>
+<v>ECE381_LABS\Lab5_UART\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\TopDesign</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Pins</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Analog</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Clocks</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Interrupts</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\DMA</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\System</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Directives</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Flash Security</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\EEPROM</v>
+<v>ECE381_LABS\Lab6_I2C\Header Files</v>
+<v>ECE381_LABS\Lab6_I2C\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Lab6_I2C\Source Files</v>
+<v>ECE381_LABS\Lab6_I2C\Source Files\main.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C</v>
+<v>ECE381_LABS\LCD_test\TopDesign</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\Pins</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\Analog</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\Clocks</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\Interrupts</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\DMA</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\System</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\Directives</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\Flash Security</v>
+<v>ECE381_LABS\LCD_test\LCD_test.cydwr\EEPROM</v>
+<v>ECE381_LABS\LCD_test\Header Files</v>
+<v>ECE381_LABS\LCD_test\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\LCD_test\Source Files</v>
+<v>ECE381_LABS\LCD_test\Source Files\main.c</v>
+<v>ECE381_LABS\LCD_test\Generated_Source</v>
+<v>ECE381_LABS\LCD_test\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Polling Lab\TopDesign</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\Pins</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\Analog</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\Clocks</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\Interrupts</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\DMA</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\System</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\Directives</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\Flash Security</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.cydwr\EEPROM</v>
+<v>ECE381_LABS\Polling Lab\Header Files</v>
+<v>ECE381_LABS\Polling Lab\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Polling Lab\Source Files</v>
+<v>ECE381_LABS\Polling Lab\Source Files\Lab2Main.c</v>
+<v>ECE381_LABS\Polling Lab\Generated_Source</v>
+<v>ECE381_LABS\Polling Lab\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Rotary Encoders\TopDesign</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\Pins</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\Analog</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\Clocks</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\Interrupts</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\DMA</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\System</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\Directives</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\Flash Security</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.cydwr\EEPROM</v>
+<v>ECE381_LABS\Rotary Encoders\Header Files</v>
+<v>ECE381_LABS\Rotary Encoders\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Rotary Encoders\Source Files</v>
+<v>ECE381_LABS\Rotary Encoders\Source Files\main.c</v>
+<v>ECE381_LABS\Rotary Encoders\Generated_Source</v>
+<v>ECE381_LABS\Rotary Encoders\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Rotary Encoders Part2\TopDesign</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\Pins</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\Analog</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\Clocks</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\Interrupts</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\DMA</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\System</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\Directives</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\Flash Security</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.cydwr\EEPROM</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Header Files</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Source Files</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Source Files\main.c</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Generated_Source</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Sqaure Wave Generator\TopDesign</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\Pins</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\Analog</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\Clocks</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\Interrupts</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\DMA</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\System</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\Directives</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\Flash Security</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.cydwr\EEPROM</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Header Files</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Source Files</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Source Files\SquareWave.c</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Generated_Source</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Sqre Wave Part 2\TopDesign</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\Pins</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\Analog</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\Clocks</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\Interrupts</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\DMA</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\System</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\Directives</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\Flash Security</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.cydwr\EEPROM</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Header Files</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Source Files</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Source Files\main.c</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Generated_Source</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\UART_Holden's\TopDesign</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\Pins</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\Analog</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\Clocks</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\Interrupts</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\DMA</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\System</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\Directives</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\Flash Security</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.cydwr\EEPROM</v>
+<v>ECE381_LABS\UART_Holden's\Header Files</v>
+<v>ECE381_LABS\UART_Holden's\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\UART_Holden's\Source Files</v>
+<v>ECE381_LABS\UART_Holden's\Source Files\HoldenUART.c</v>
+<v>ECE381_LABS\UART_Holden's\Generated_Source</v>
+<v>ECE381_LABS\UART_Holden's\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\VolumeControl\TopDesign</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\Pins</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\Analog</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\Clocks</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\Interrupts</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\DMA</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\System</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\Directives</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\Flash Security</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.cydwr\EEPROM</v>
+<v>ECE381_LABS\VolumeControl\Header Files</v>
+<v>ECE381_LABS\VolumeControl\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\VolumeControl\Source Files</v>
+<v>ECE381_LABS\VolumeControl\Source Files\volumemain.c</v>
+<v>ECE381_LABS\VolumeControl\Generated_Source</v>
+<v>ECE381_LABS\VolumeControl\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led</v>
+<v>ECE381_LABS\digiDesignerCounter</v>
+<v>ECE381_LABS\Garrison_Exam1</v>
+<v>ECE381_LABS\Lab5_UART</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\TopDesign</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Pins</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Analog</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Clocks</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Interrupts</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\DMA</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\System</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Directives</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\Flash Security</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.cydwr\EEPROM</v>
+<v>ECE381_LABS\Lab6_I2C\Header Files</v>
+<v>ECE381_LABS\Lab6_I2C\Header Files\cyapicallbacks.h</v>
+<v>ECE381_LABS\Lab6_I2C\Source Files</v>
+<v>ECE381_LABS\Lab6_I2C\Source Files\main.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cy_boot</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C.h</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C_BOOT.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C_INT.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C_MASTER.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C_PM.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C_PVT.h</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\I2C\I2C_SLAVE.c</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\isr_1</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\LCD_Char_1</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\LCD_Char_1_LCDPort</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\SCL</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\SDA</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\UART</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\UART_IntClock</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cydevice.h</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>ECE381_LABS\Lab6_I2C\Generated_Source\PSoC5\cydevicerv.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led</v>
+<v>ECE381_LABS\blink_led\TopDesign</v>
+<v>ECE381_LABS\blink_led\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\digiDesignerCounter</v>
+<v>ECE381_LABS\digiDesignerCounter\TopDesign</v>
+<v>ECE381_LABS\digiDesignerCounter\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Garrison_Exam1</v>
+<v>ECE381_LABS\Garrison_Exam1\TopDesign</v>
+<v>ECE381_LABS\Garrison_Exam1\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Lab5_UART</v>
+<v>ECE381_LABS\Lab5_UART\TopDesign</v>
+<v>ECE381_LABS\Lab5_UART\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\TopDesign</v>
+<v>ECE381_LABS\Lab6_I2C\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\LCD_test</v>
+<v>ECE381_LABS\LCD_test\TopDesign</v>
+<v>ECE381_LABS\LCD_test\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Polling Lab</v>
+<v>ECE381_LABS\Polling Lab\TopDesign</v>
+<v>ECE381_LABS\Polling Lab\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Rotary Encoders</v>
+<v>ECE381_LABS\Rotary Encoders\TopDesign</v>
+<v>ECE381_LABS\Rotary Encoders\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Rotary Encoders Part2</v>
+<v>ECE381_LABS\Rotary Encoders Part2\TopDesign</v>
+<v>ECE381_LABS\Rotary Encoders Part2\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Sqaure Wave Generator</v>
+<v>ECE381_LABS\Sqaure Wave Generator\TopDesign</v>
+<v>ECE381_LABS\Sqaure Wave Generator\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Sqre Wave Part 2</v>
+<v>ECE381_LABS\Sqre Wave Part 2\TopDesign</v>
+<v>ECE381_LABS\Sqre Wave Part 2\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\UART_Holden's</v>
+<v>ECE381_LABS\UART_Holden's\TopDesign</v>
+<v>ECE381_LABS\UART_Holden's\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\VolumeControl</v>
+<v>ECE381_LABS\VolumeControl\TopDesign</v>
+<v>ECE381_LABS\VolumeControl\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led</v>
+<v>ECE381_LABS\blink_led\TopDesign</v>
+<v>ECE381_LABS\blink_led\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\digiDesignerCounter</v>
+<v>ECE381_LABS\digiDesignerCounter\TopDesign</v>
+<v>ECE381_LABS\digiDesignerCounter\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Garrison_Exam1</v>
+<v>ECE381_LABS\Garrison_Exam1\TopDesign</v>
+<v>ECE381_LABS\Garrison_Exam1\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Lab5_UART</v>
+<v>ECE381_LABS\Lab5_UART\TopDesign</v>
+<v>ECE381_LABS\Lab5_UART\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\TopDesign</v>
+<v>ECE381_LABS\Lab6_I2C\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\LCD_test</v>
+<v>ECE381_LABS\LCD_test\TopDesign</v>
+<v>ECE381_LABS\LCD_test\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Polling Lab</v>
+<v>ECE381_LABS\Polling Lab\TopDesign</v>
+<v>ECE381_LABS\Polling Lab\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Rotary Encoders</v>
+<v>ECE381_LABS\Rotary Encoders\TopDesign</v>
+<v>ECE381_LABS\Rotary Encoders\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Rotary Encoders Part2</v>
+<v>ECE381_LABS\Rotary Encoders Part2\TopDesign</v>
+<v>ECE381_LABS\Rotary Encoders Part2\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Sqaure Wave Generator</v>
+<v>ECE381_LABS\Sqaure Wave Generator\TopDesign</v>
+<v>ECE381_LABS\Sqaure Wave Generator\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\Sqre Wave Part 2</v>
+<v>ECE381_LABS\Sqre Wave Part 2\TopDesign</v>
+<v>ECE381_LABS\Sqre Wave Part 2\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\UART_Holden's</v>
+<v>ECE381_LABS\UART_Holden's\TopDesign</v>
+<v>ECE381_LABS\UART_Holden's\TopDesign\TopDesign.cysch</v>
+<v>ECE381_LABS\VolumeControl</v>
+<v>ECE381_LABS\VolumeControl\TopDesign</v>
+<v>ECE381_LABS\VolumeControl\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led</v>
+<v>ECE381_LABS\blink_led\CortexM3</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug\blink_led.elf</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug\blink_led.hex</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug\blink_led.map</v>
+<v>ECE381_LABS\blink_led\blink_led.gpdsc</v>
+<v>ECE381_LABS\blink_led\blink_led.rpt</v>
+<v>ECE381_LABS\blink_led\blink_led_timing.html</v>
+<v>ECE381_LABS\digiDesignerCounter</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug\digiDesignerCounter.elf</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug\digiDesignerCounter.hex</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug\digiDesignerCounter.map</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.gpdsc</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.rpt</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter_timing.html</v>
+<v>ECE381_LABS\Garrison_Exam1</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug\Garrison_Exam1.elf</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug\Garrison_Exam1.hex</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug\Garrison_Exam1.map</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.gpdsc</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.rpt</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1_timing.html</v>
+<v>ECE381_LABS\Lab5_UART</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug\Lab5_UART.elf</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug\Lab5_UART.hex</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug\Lab5_UART.map</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.gpdsc</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.rpt</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART_timing.html</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_INT.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_MASTER.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_SLAVE.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_1.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_PM.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\SCL.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\SDA.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_INT.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_IntClock.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Lab6_I2C.elf</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Lab6_I2C.hex</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Lab6_I2C.map</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.gpdsc</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C.rpt</v>
+<v>ECE381_LABS\Lab6_I2C\Lab6_I2C_timing.html</v>
+<v>ECE381_LABS\LCD_test</v>
+<v>ECE381_LABS\LCD_test\CortexM3</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\LCD_test.elf</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\LCD_test.hex</v>
+<v>ECE381_LABS\LCD_test\CortexM3\ARM_GCC_541\Debug\LCD_test.map</v>
+<v>ECE381_LABS\LCD_test\LCD_test.gpdsc</v>
+<v>ECE381_LABS\LCD_test\LCD_test.rpt</v>
+<v>ECE381_LABS\LCD_test\LCD_test_timing.html</v>
+<v>ECE381_LABS\Polling Lab</v>
+<v>ECE381_LABS\Polling Lab\CortexM3</v>
+<v>ECE381_LABS\Polling Lab\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Polling Lab\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Polling Lab\CortexM3\ARM_GCC_541\Debug\Polling Lab.elf</v>
+<v>ECE381_LABS\Polling Lab\CortexM3\ARM_GCC_541\Debug\Polling Lab.hex</v>
+<v>ECE381_LABS\Polling Lab\CortexM3\ARM_GCC_541\Debug\Polling Lab.map</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.gpdsc</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab.rpt</v>
+<v>ECE381_LABS\Polling Lab\Polling Lab_timing.html</v>
+<v>ECE381_LABS\Rotary Encoders</v>
+<v>ECE381_LABS\Rotary Encoders\CortexM3</v>
+<v>ECE381_LABS\Rotary Encoders\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Rotary Encoders\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Rotary Encoders\CortexM3\ARM_GCC_541\Debug\Rotary Encoders.elf</v>
+<v>ECE381_LABS\Rotary Encoders\CortexM3\ARM_GCC_541\Debug\Rotary Encoders.hex</v>
+<v>ECE381_LABS\Rotary Encoders\CortexM3\ARM_GCC_541\Debug\Rotary Encoders.map</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.gpdsc</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders.rpt</v>
+<v>ECE381_LABS\Rotary Encoders\Rotary Encoders_timing.html</v>
+<v>ECE381_LABS\Rotary Encoders Part2</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CortexM3</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CortexM3\ARM_GCC_541\Debug\Rotary Encoders Part2.elf</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CortexM3\ARM_GCC_541\Debug\Rotary Encoders Part2.hex</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CortexM3\ARM_GCC_541\Debug\Rotary Encoders Part2.map</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.gpdsc</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2.rpt</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Rotary Encoders Part2_timing.html</v>
+<v>ECE381_LABS\Sqaure Wave Generator</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CortexM3</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CortexM3\ARM_GCC_541\Debug\Sqaure Wave Generator.elf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CortexM3\ARM_GCC_541\Debug\Sqaure Wave Generator.hex</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CortexM3\ARM_GCC_541\Debug\Sqaure Wave Generator.map</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.gpdsc</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator.rpt</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Sqaure Wave Generator_timing.html</v>
+<v>ECE381_LABS\Sqre Wave Part 2</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CortexM3</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CortexM3\ARM_GCC_541\Debug\Sqre Wave Part 2.elf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CortexM3\ARM_GCC_541\Debug\Sqre Wave Part 2.hex</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CortexM3\ARM_GCC_541\Debug\Sqre Wave Part 2.map</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.gpdsc</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2.rpt</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Sqre Wave Part 2_timing.html</v>
+<v>ECE381_LABS\UART_Holden's</v>
+<v>ECE381_LABS\UART_Holden's\CortexM3</v>
+<v>ECE381_LABS\UART_Holden's\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\UART_Holden's\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\UART_Holden's\CortexM3\ARM_GCC_541\Debug\UART_Holden's.elf</v>
+<v>ECE381_LABS\UART_Holden's\CortexM3\ARM_GCC_541\Debug\UART_Holden's.hex</v>
+<v>ECE381_LABS\UART_Holden's\CortexM3\ARM_GCC_541\Debug\UART_Holden's.map</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.gpdsc</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's.rpt</v>
+<v>ECE381_LABS\UART_Holden's\UART_Holden's_timing.html</v>
+<v>ECE381_LABS\VolumeControl</v>
+<v>ECE381_LABS\VolumeControl\CortexM3</v>
+<v>ECE381_LABS\VolumeControl\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\VolumeControl\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\VolumeControl\CortexM3\ARM_GCC_541\Debug\VolumeControl.elf</v>
+<v>ECE381_LABS\VolumeControl\CortexM3\ARM_GCC_541\Debug\VolumeControl.hex</v>
+<v>ECE381_LABS\VolumeControl\CortexM3\ARM_GCC_541\Debug\VolumeControl.map</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.gpdsc</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl.rpt</v>
+<v>ECE381_LABS\VolumeControl\VolumeControl_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led</v>
+<v>ECE381_LABS\blink_led\CortexM3</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug\blink_led.elf</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug\blink_led.hex</v>
+<v>ECE381_LABS\blink_led\CortexM3\ARM_GCC_541\Debug\blink_led.map</v>
+<v>ECE381_LABS\blink_led\blink_led.gpdsc</v>
+<v>ECE381_LABS\blink_led\blink_led.rpt</v>
+<v>ECE381_LABS\blink_led\blink_led_timing.html</v>
+<v>ECE381_LABS\digiDesignerCounter</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug\digiDesignerCounter.elf</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug\digiDesignerCounter.hex</v>
+<v>ECE381_LABS\digiDesignerCounter\CortexM3\ARM_GCC_541\Debug\digiDesignerCounter.map</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.gpdsc</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter.rpt</v>
+<v>ECE381_LABS\digiDesignerCounter\digiDesignerCounter_timing.html</v>
+<v>ECE381_LABS\Garrison_Exam1</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug\Garrison_Exam1.elf</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug\Garrison_Exam1.hex</v>
+<v>ECE381_LABS\Garrison_Exam1\CortexM3\ARM_GCC_541\Debug\Garrison_Exam1.map</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.gpdsc</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1.rpt</v>
+<v>ECE381_LABS\Garrison_Exam1\Garrison_Exam1_timing.html</v>
+<v>ECE381_LABS\Lab5_UART</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug\Lab5_UART.elf</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug\Lab5_UART.hex</v>
+<v>ECE381_LABS\Lab5_UART\CortexM3\ARM_GCC_541\Debug\Lab5_UART.map</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.gpdsc</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART.rpt</v>
+<v>ECE381_LABS\Lab5_UART\Lab5_UART_timing.html</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>ECE381_LABS\Lab6_I2C\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led</v>
+<v>ECE381_LABS\blink_led\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\blink_led\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\blink_led\System Reference Guides</v>
+<v>ECE381_LABS\blink_led\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\blink_led\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\blink_led\Gnd_v1_0.pdf</v>
+<v>ECE381_LABS\blink_led\LED_v1_0.pdf</v>
+<v>ECE381_LABS\blink_led\Resistor_v1_0.pdf</v>
+<v>ECE381_LABS\digiDesignerCounter</v>
+<v>ECE381_LABS\digiDesignerCounter\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\digiDesignerCounter\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\digiDesignerCounter\System Reference Guides</v>
+<v>ECE381_LABS\digiDesignerCounter\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\digiDesignerCounter\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1</v>
+<v>ECE381_LABS\Garrison_Exam1\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Garrison_Exam1\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Garrison_Exam1\System Reference Guides</v>
+<v>ECE381_LABS\Garrison_Exam1\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Garrison_Exam1\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\Counter_v3_0.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_clock_v2_20</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_constant_v1_0.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_pins_v2_20</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Lab5_UART</v>
+<v>ECE381_LABS\Lab5_UART\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Lab5_UART\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Lab5_UART\System Reference Guides</v>
+<v>ECE381_LABS\Lab5_UART\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Lab5_UART\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Lab5_UART\cy_isr_v1_70</v>
+<v>ECE381_LABS\Lab5_UART\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Lab5_UART\cy_pins_v2_20</v>
+<v>ECE381_LABS\Lab5_UART\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Lab5_UART\UART_v2_50.pdf</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Lab6_I2C\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Lab6_I2C\System Reference Guides</v>
+<v>ECE381_LABS\Lab6_I2C\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Lab6_I2C\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Lab6_I2C\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Lab6_I2C\cy_pins_v2_20</v>
+<v>ECE381_LABS\Lab6_I2C\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Lab6_I2C\I2C_v3_50.pdf</v>
+<v>ECE381_LABS\Lab6_I2C\UART_v2_50.pdf</v>
+<v>ECE381_LABS\LCD_test</v>
+<v>ECE381_LABS\LCD_test\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\LCD_test\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\LCD_test\System Reference Guides</v>
+<v>ECE381_LABS\LCD_test\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\LCD_test\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Polling Lab</v>
+<v>ECE381_LABS\Polling Lab\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Polling Lab\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Polling Lab\System Reference Guides</v>
+<v>ECE381_LABS\Polling Lab\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Polling Lab\cy_clock_v2_20.pdf</v>
+<v>ECE381_LABS\Polling Lab\cy_pins_v2_20</v>
+<v>ECE381_LABS\Polling Lab\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Polling Lab\Debouncer_v1_0</v>
+<v>ECE381_LABS\Polling Lab\Debouncer_v1_0\Debouncer_v1_0.pdf</v>
+<v>ECE381_LABS\Rotary Encoders</v>
+<v>ECE381_LABS\Rotary Encoders\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Rotary Encoders\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Rotary Encoders\System Reference Guides</v>
+<v>ECE381_LABS\Rotary Encoders\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Rotary Encoders\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Rotary Encoders\cy_pins_v2_20</v>
+<v>ECE381_LABS\Rotary Encoders\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Rotary Encoders Part2</v>
+<v>ECE381_LABS\Rotary Encoders Part2\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Rotary Encoders Part2\System Reference Guides</v>
+<v>ECE381_LABS\Rotary Encoders Part2\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Rotary Encoders Part2\cy_clock_v2_20.pdf</v>
+<v>ECE381_LABS\Rotary Encoders Part2\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Rotary Encoders Part2\cy_pins_v2_20</v>
+<v>ECE381_LABS\Rotary Encoders Part2\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Rotary Encoders Part2\CyStatusReg_v1_90.pdf</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Debouncer_v1_0</v>
+<v>ECE381_LABS\Rotary Encoders Part2\Debouncer_v1_0\Debouncer_v1_0.pdf</v>
+<v>ECE381_LABS\Rotary Encoders Part2\LUT_v1_50.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator</v>
+<v>ECE381_LABS\Sqaure Wave Generator\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Sqaure Wave Generator\System Reference Guides</v>
+<v>ECE381_LABS\Sqaure Wave Generator\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Sqaure Wave Generator\and_v1_0.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\cy_clock_v2_20</v>
+<v>ECE381_LABS\Sqaure Wave Generator\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\cy_pins_v2_20</v>
+<v>ECE381_LABS\Sqaure Wave Generator\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\CyStatusReg_v1_90.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Debouncer_v1_0</v>
+<v>ECE381_LABS\Sqaure Wave Generator\Debouncer_v1_0\Debouncer_v1_0.pdf</v>
+<v>ECE381_LABS\Sqaure Wave Generator\LUT_v1_50.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2</v>
+<v>ECE381_LABS\Sqre Wave Part 2\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Sqre Wave Part 2\System Reference Guides</v>
+<v>ECE381_LABS\Sqre Wave Part 2\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Counter_v3_0.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\cy_clock_v2_20</v>
+<v>ECE381_LABS\Sqre Wave Part 2\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\cy_constant_v1_0.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\cy_isr_v1_70</v>
+<v>ECE381_LABS\Sqre Wave Part 2\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\cy_pins_v2_20</v>
+<v>ECE381_LABS\Sqre Wave Part 2\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\CyStatusReg_v1_90.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Debouncer_v1_0</v>
+<v>ECE381_LABS\Sqre Wave Part 2\Debouncer_v1_0\Debouncer_v1_0.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\FreqDiv_v1_0.pdf</v>
+<v>ECE381_LABS\Sqre Wave Part 2\LUT_v1_50.pdf</v>
+<v>ECE381_LABS\UART_Holden's</v>
+<v>ECE381_LABS\UART_Holden's\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\UART_Holden's\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\UART_Holden's\System Reference Guides</v>
+<v>ECE381_LABS\UART_Holden's\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\UART_Holden's\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\UART_Holden's\cy_isr_v1_70</v>
+<v>ECE381_LABS\UART_Holden's\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\UART_Holden's\cy_pins_v2_20</v>
+<v>ECE381_LABS\UART_Holden's\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\UART_Holden's\UART_v2_50.pdf</v>
+<v>ECE381_LABS\VolumeControl</v>
+<v>ECE381_LABS\VolumeControl\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\VolumeControl\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\VolumeControl\System Reference Guides</v>
+<v>ECE381_LABS\VolumeControl\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\VolumeControl\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\VolumeControl\cy_clock_v2_20.pdf</v>
+<v>ECE381_LABS\VolumeControl\cy_pins_v2_20</v>
+<v>ECE381_LABS\VolumeControl\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\VolumeControl\Debouncer_v1_0</v>
+<v>ECE381_LABS\VolumeControl\Debouncer_v1_0\Debouncer_v1_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>ECE381_LABS</v>
+<v>ECE381_LABS\blink_led</v>
+<v>ECE381_LABS\blink_led\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\blink_led\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\blink_led\System Reference Guides</v>
+<v>ECE381_LABS\blink_led\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\blink_led\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\blink_led\Gnd_v1_0.pdf</v>
+<v>ECE381_LABS\blink_led\LED_v1_0.pdf</v>
+<v>ECE381_LABS\blink_led\Resistor_v1_0.pdf</v>
+<v>ECE381_LABS\digiDesignerCounter</v>
+<v>ECE381_LABS\digiDesignerCounter\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\digiDesignerCounter\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\digiDesignerCounter\System Reference Guides</v>
+<v>ECE381_LABS\digiDesignerCounter\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\digiDesignerCounter\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1</v>
+<v>ECE381_LABS\Garrison_Exam1\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Garrison_Exam1\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Garrison_Exam1\System Reference Guides</v>
+<v>ECE381_LABS\Garrison_Exam1\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Garrison_Exam1\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\Counter_v3_0.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_clock_v2_20</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_constant_v1_0.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_pins_v2_20</v>
+<v>ECE381_LABS\Garrison_Exam1\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Lab5_UART</v>
+<v>ECE381_LABS\Lab5_UART\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Lab5_UART\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Lab5_UART\System Reference Guides</v>
+<v>ECE381_LABS\Lab5_UART\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Lab5_UART\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Lab5_UART\cy_isr_v1_70</v>
+<v>ECE381_LABS\Lab5_UART\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Lab5_UART\cy_pins_v2_20</v>
+<v>ECE381_LABS\Lab5_UART\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Lab5_UART\UART_v2_50.pdf</v>
+<v>ECE381_LABS\Lab6_I2C</v>
+<v>ECE381_LABS\Lab6_I2C\PSoC 5LP Architecture TRM</v>
+<v>ECE381_LABS\Lab6_I2C\CY8C58LP Family Datasheet</v>
+<v>ECE381_LABS\Lab6_I2C\System Reference Guides</v>
+<v>ECE381_LABS\Lab6_I2C\System Reference Guides\cy_boot_v5_60</v>
+<v>ECE381_LABS\Lab6_I2C\CharLCD_v2_20.pdf</v>
+<v>ECE381_LABS\Lab6_I2C\cy_isr_v1_70.pdf</v>
+<v>ECE381_LABS\Lab6_I2C\cy_pins_v2_20</v>
+<v>ECE381_LABS\Lab6_I2C\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ECE381_LABS\Lab6_I2C\I2C_v3_50.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

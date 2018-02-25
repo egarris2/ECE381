@@ -12,9 +12,43 @@
 #include "project.h"
 #include <string.h>
 
-#define numOfChars 79
+#define numOfChars  79
+#define write       0
+#define read        1
 
 CY_ISR_PROTO(byteReceived);
+void printInstructions();
+void parseInput();
+void readWriteMem();
+
+uint8 currentMemLocation;
+uint16 memLocation;
+
+uint8 directionRW;
+uint8 chipSelect;
+
+uint8 group1Address =   80;
+uint8 chip1Address  =    6;
+uint8 chip2Address  =    4;
+
+uint8 address;
+
+
+
+uint8 format;
+
+uint8 readNumBytes; 
+uint8 writeNumBytes;
+
+uint8 data[numOfChars];
+uint8 writeData[numOfChars] = "";
+uint8 readData[numOfChars];
+
+uint8 addressW = 86;
+uint8 addressR = 86;
+
+uint8 format;
+
 
 int updateFlag;
 int i = 0;
@@ -27,19 +61,30 @@ char input[numOfChars] = "";
 char empty[numOfChars] = "";
 char nextByte;
 
+uint8 testAdd[1] = {0x00};
+uint8 testW[5] = {0x00,0x30,0x31,0x32, 0x33};
+uint8 testR[4] = {1,2,3,4};
+
 int main(void)
 {
+    
     UART_Start();
+    I2C_Start();
+    //I2C_Enable();
+    
+    printInstructions();
+    
     isr_1_StartEx(byteReceived);
     CyGlobalIntEnable; 
     
     for(;;)
     {
-        if(updateFlag == 1){
-            UART_PutString(holding);
-            UART_PutString("\n");
-            updateFlag = 0;
+        if(updateFlag){
+            parseInput();
+            readWriteMem();
 
+
+            updateFlag = 0;
         }
     }
 }
@@ -103,3 +148,80 @@ CY_ISR(byteReceived){
     }
 }
     
+void printInstructions(){
+    UART_PutString("\n\r Please type a command. A command will look similar to the examples below.\n\r");
+    UART_PutString("\n\r W # XX A Your message here");
+    UART_PutString("\n\r A # XX H NN\n\r");
+    UART_PutString("\n\r W for write or R for Read");
+    UART_PutString("\n\r # determines which EEPROM");
+    UART_PutString("\n\r XX determines memory location (in hex)");
+    UART_PutString("\n\r A for ASCII or H for ASCII encoded hex bytes");
+    UART_PutString("\n\r NN for READ commands determines number of bytes (in hex) to be read\n\r");
+    UART_PutString("\n\r Examples given below\n\r");
+    UART_PutString("\n\r W 1 31 A Mary had a little lamb");
+    UART_PutString("\n\r R 2 31 H 34\n\r");
+    UART_PutString("\n\r>");
+}
+
+void parseInput(){
+    if (holding[0] == 'W' || holding[0] == 'w'){
+        directionRW = write;
+    }
+    else if(holding[0] == 'R' || holding[0] == 'r'){
+        directionRW = read;
+    }
+    
+    readNumBytes = (((holding[9] - '0') << 4) | (holding[10] - '0'));
+    
+    chipSelect = holding[2];
+    
+    memLocation = (((holding[4] - '0') << 4) | (holding[5] - '0'));
+    writeData[0] = memLocation;
+    format = holding[7];
+    
+    for (i = 9; holding[i] != 0x0D; i++){
+        writeData[i-8] = holding[i];
+        writeData[i-7] = 0x0D;
+        
+        writeNumBytes = i-8;
+    }
+    
+    
+}
+
+
+void readWriteMem(){
+    if(chipSelect == '1'){
+        address = (group1Address | chip1Address);
+    }
+    
+    else{
+        address = (group1Address | chip2Address);
+    }
+    
+    if(directionRW == write){
+        I2C_MasterWriteBuf(address, writeData, writeNumBytes, I2C_MODE_COMPLETE_XFER);
+        while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
+        I2C_MasterClearStatus();
+        CyDelay(5);
+    }
+    
+    if(directionRW == read){
+        I2C_MasterWriteBuf(address, writeData, 1, I2C_MODE_COMPLETE_XFER);
+        while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
+        I2C_MasterClearStatus();
+        CyDelay(5);
+        
+        I2C_MasterReadBuf(address, readData, readNumBytes, I2C_MODE_COMPLETE_XFER);
+        while(!(I2C_MasterStatus() & I2C_MSTAT_RD_CMPLT));
+        I2C_MasterClearStatus();
+        
+        for(i = 0; i < readNumBytes; i++){
+            UART_PutChar(readData[i]);
+        }
+        UART_PutString(">");
+        //UART_PutString(holding);
+        //UART_PutString("\n");
+        updateFlag = 0;
+    }
+}
