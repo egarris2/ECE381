@@ -13,6 +13,7 @@
 #include <string.h>
 
 #define numOfChars  79
+#define numOfBytesInPage 16
 #define write       0
 #define read        1
 
@@ -22,7 +23,7 @@ void parseInput();
 void readWriteMem();
 
 uint8 currentMemLocation;
-uint16 memLocation;
+uint8 memLocation;
 
 uint8 directionRW;
 uint8 chipSelect;
@@ -41,7 +42,11 @@ uint8 readNumBytes;
 uint8 writeNumBytes;
 
 uint8 data[numOfChars];
-uint8 writeData[numOfChars] = "";
+uint8 writeData1[numOfBytesInPage + 1] = "";
+uint8 writeData2[numOfBytesInPage+1] = "";
+uint8 writeData3[numOfBytesInPage+1] = "";
+uint8 writeData4[numOfBytesInPage+1] = "";
+uint8 writeData5[numOfBytesInPage+1] = "";
 uint8 readData[numOfChars];
 
 uint8 addressW = 86;
@@ -52,8 +57,8 @@ uint8 format;
 
 int updateFlag;
 int i = 0;
-int x = 0;
 int y = 0;
+int x = 0;
 int entry = 0;
 
 char holding[numOfChars] = "";
@@ -61,9 +66,6 @@ char input[numOfChars] = "";
 char empty[numOfChars] = "";
 char nextByte;
 
-uint8 testAdd[1] = {0x00};
-uint8 testW[5] = {0x00,0x30,0x31,0x32, 0x33};
-uint8 testR[4] = {1,2,3,4};
 
 int main(void)
 {
@@ -82,7 +84,7 @@ int main(void)
         if(updateFlag){
             parseInput();
             readWriteMem();
-
+            UART_PutString("\r\n>");
 
             updateFlag = 0;
         }
@@ -129,9 +131,10 @@ CY_ISR(byteReceived){
                 holding[i] = input[i];
             }
             
+            //UART_PutString(holding);
             //clear input array
-            for(y = 0;y < numOfChars; y++){
-                input[y] = empty[y];
+            for(x = 0;x < numOfChars; x++){
+                input[x] = empty[x];
             }
             
             //return input buffer write location to beginning
@@ -176,16 +179,62 @@ void parseInput(){
     chipSelect = holding[2];
     
     memLocation = (((holding[4] - '0') << 4) | (holding[5] - '0'));
-    writeData[0] = memLocation;
+    writeData1[0] = memLocation;
+    writeData2[0] = memLocation + numOfBytesInPage;
+    writeData3[0] = memLocation + numOfBytesInPage*2;
+    writeData4[0] = memLocation + numOfBytesInPage*3;
+    writeData5[0] = memLocation + numOfBytesInPage*4;
     format = holding[7];
     
-    for (i = 9; holding[i] != 0x0D; i++){
-        writeData[i-8] = holding[i];
-        writeData[i-7] = 0x0D;
-        
-        writeNumBytes = i-8;
+    if(format == 'a'){
+        for (i = 9; holding[i] != 0x0D; i++){
+            if(i < 25){
+                writeData1[i-8] = holding[i];
+            }
+            else if(i < 41){
+                writeData2[i-24] = holding[i];
+            }
+            else if(i < 57){
+                writeData3[i-40] = holding[i];
+            }
+            else if(i < 73){
+                writeData4[i-56] = holding[i];
+            }
+            else if(i < 89){
+                writeData5[i-72] = holding[i];
+            }
+            writeNumBytes = i-6;
+        }
     }
     
+    else if(format == 'h'){
+
+        for (y = 9, i = 9; holding[i] != 0x0D; y+=3, i++){
+            if(i < 25){
+                writeData1[i-8] = ((holding[y] - '0') << 4) | (holding[y+1]-'0');
+            }
+            else if(i < 41){
+                writeData2[i-24] = ((holding[y] - '0') << 4) | (holding[y+1]-'0');
+            }
+            else if(i < 57){
+                writeData3[i-40] = ((holding[y] - '0') << 4) | (holding[y+1]-'0');
+            }
+            else if(i < 73){
+                writeData4[i-56] = ((holding[y] - '0') << 4) | (holding[y+1]-'0');
+            }
+            else if(i < 89){
+                writeData5[i-72] = ((holding[y] - '0') << 4) | (holding[y+1]-'0');
+            }
+            writeNumBytes = i-6;
+            
+        }
+    }
+    
+    /*UART_PutString("\r\n");
+    for (i = 0; i < 20; i++){
+        UART_PutChar(writeData1[i]);
+    }
+    UART_PutString("\r\n");*/
     
 }
 
@@ -200,14 +249,34 @@ void readWriteMem(){
     }
     
     if(directionRW == write){
-        I2C_MasterWriteBuf(address, writeData, writeNumBytes, I2C_MODE_COMPLETE_XFER);
+        I2C_MasterWriteBuf(address, writeData1, numOfBytesInPage + 1, I2C_MODE_COMPLETE_XFER);
+        while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
+        I2C_MasterClearStatus();
+        CyDelay(5);
+        
+        I2C_MasterWriteBuf(address, writeData2, numOfBytesInPage + 1, I2C_MODE_COMPLETE_XFER);
+        while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
+        I2C_MasterClearStatus();
+        CyDelay(5);
+        
+        I2C_MasterWriteBuf(address, writeData3, numOfBytesInPage + 1, I2C_MODE_COMPLETE_XFER);
+        while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
+        I2C_MasterClearStatus();
+        CyDelay(5);
+        
+        I2C_MasterWriteBuf(address, writeData4, numOfBytesInPage + 1, I2C_MODE_COMPLETE_XFER);
+        while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
+        I2C_MasterClearStatus();
+        CyDelay(5);
+        
+        I2C_MasterWriteBuf(address, writeData5, numOfBytesInPage + 1, I2C_MODE_COMPLETE_XFER);
         while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
         I2C_MasterClearStatus();
         CyDelay(5);
     }
     
     if(directionRW == read){
-        I2C_MasterWriteBuf(address, writeData, 1, I2C_MODE_COMPLETE_XFER);
+        I2C_MasterWriteBuf(address, writeData1, 1, I2C_MODE_COMPLETE_XFER);
         while(!(I2C_MasterStatus() & I2C_MSTAT_WR_CMPLT));
         I2C_MasterClearStatus();
         CyDelay(5);
@@ -216,10 +285,21 @@ void readWriteMem(){
         while(!(I2C_MasterStatus() & I2C_MSTAT_RD_CMPLT));
         I2C_MasterClearStatus();
         
-        for(i = 0; i < readNumBytes; i++){
-            UART_PutChar(readData[i]);
+        if(format == 'a'){
+            for(i = 0; i < readNumBytes; i++){
+                UART_PutChar(readData[i]);
+            }
         }
-        UART_PutString(">");
+        
+        else if(format == 'h'){
+            for(i = 0; i < readNumBytes; i++){
+                
+                UART_PutChar((((readData[i]) & 0xF0) >> 4) + '0');
+                UART_PutChar((readData[i] & 0x0F) + '0');
+                UART_PutChar(0x20);
+            }
+        }
+        
         //UART_PutString(holding);
         //UART_PutString("\n");
         updateFlag = 0;
